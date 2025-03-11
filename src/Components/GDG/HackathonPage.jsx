@@ -6,6 +6,7 @@ const HackathonPage = ({ manualImages = [] }) => {
   const [activeTab, setActiveTab] = useState("about");
   const [images, setImages] = useState([]);
   const [selectedFiles, setSelectedFiles] = useState([]);
+  const [searchQuery, setSearchQuery] = useState(""); // State for search query
   const fileInputRef = useRef(null);
 
   useEffect(() => {
@@ -158,6 +159,11 @@ const HackathonPage = ({ manualImages = [] }) => {
       filename: pdfDoc,
     },
   ];
+
+  // Filter certificates based on search query
+  const filteredCertificates = certificates.filter((cert) =>
+    cert.team.toLowerCase().includes(searchQuery.toLowerCase())
+  );
 
   const handleFileSelection = (e) => {
     if (e.target.files && e.target.files.length > 0) {
@@ -354,8 +360,10 @@ const HackathonPage = ({ manualImages = [] }) => {
                   <input
                     id="certificate-search"
                     type="text"
-                    placeholder="Enter your name or team name"
-                    className="w-full p-2 border  bg-transparent border-gray-600 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500 "
+                    placeholder="Enter your team name"
+                    value={searchQuery}
+                    onChange={(e) => setSearchQuery(e.target.value)}
+                    className="w-full p-2 border bg-transparent border-gray-600 rounded-md shadow-sm focus:ring-gray-500 focus:border-gray-500"
                   />
                 </div>
 
@@ -394,7 +402,7 @@ const HackathonPage = ({ manualImages = [] }) => {
                         </tr>
                       </thead>
                       <tbody className="bg-footerBgColor">
-                        {certificates.map((cert) => (
+                        {filteredCertificates.map((cert) => (
                           <tr key={cert.id} className="hover:bg-zinc-800">
                             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-white">
                               {cert.name}
