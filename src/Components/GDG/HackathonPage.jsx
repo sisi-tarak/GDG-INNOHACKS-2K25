@@ -6,7 +6,7 @@ const HackathonPage = ({ manualImages = [] }) => {
   const [activeTab, setActiveTab] = useState("about");
   const [images, setImages] = useState([]);
   const [selectedFiles, setSelectedFiles] = useState([]);
-  const [searchQuery, setSearchQuery] = useState(""); // State for search query
+  const [searchQuery, setSearchQuery] = useState("");
   const fileInputRef = useRef(null);
 
   useEffect(() => {
@@ -160,7 +160,6 @@ const HackathonPage = ({ manualImages = [] }) => {
     },
   ];
 
-  // Filter certificates based on search query
   const filteredCertificates = certificates.filter((cert) =>
     cert.team.toLowerCase().includes(searchQuery.toLowerCase())
   );
@@ -447,7 +446,7 @@ const HackathonPage = ({ manualImages = [] }) => {
               <div className="px-6 py-4 mb-4 border-t border-gray-800">
                 <p className="text-sm text-gray-400">
                   Can't find your certificate? Contact us at
-                  support@techhack.com
+                   support@techhack.com
                 </p>
               </div>
             </div>
@@ -456,7 +455,7 @@ const HackathonPage = ({ manualImages = [] }) => {
       </div>
 
       <footer className="mt-16 text-center text-gray-200 text-sm">
-        <p>© 2025 TechHack. All rights reserved.</p>
+        <p>© GDG INNOHACKS 2K25. All rights reserved.</p>
       </footer>
     </div>
   );
