@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import pdfDoc from "../../assets/Resume/sisindrisingamsetti_resume.pdf";
-import img1 from "../../assets/Projects/02.png";
-import img2 from "../../assets/Projects/01.png";
+import img1 from "../../assets/logo.jpg";
 
 const HackathonPage = ({ manualImages = [] }) => {
   const [activeTab, setActiveTab] = useState("about");
@@ -26,12 +25,97 @@ const HackathonPage = ({ manualImages = [] }) => {
       alt: "GDG-Innohacks-2K25",
     },
     {
-      id: 1,
-      src: img2,
+      id: 2,
+      src: img1,
       alt: "GDG-Innohacks-2K25",
     },
     {
-      id: 1,
+      id: 3,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 4,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 5,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 6,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 7,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 8,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 9,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 10,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 11,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 12,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 13,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 14,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 15,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 16,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 17,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 18,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 19,
+      src: img1,
+      alt: "GDG-Innohacks-2K25",
+    },
+    {
+      id: 20,
       src: img1,
       alt: "GDG-Innohacks-2K25",
     },
@@ -217,45 +301,7 @@ const HackathonPage = ({ manualImages = [] }) => {
                 </p>
               </div>
               <div className="p-6">
-                <div className="mb-6">
-                  <label
-                    htmlFor="image-upload"
-                    className="block mb-2 text-sm font-medium text-gray-400"
-                  >
-                    Upload Hackathon Images
-                  </label>
-                  <div className="flex flex-col sm:flex-row gap-3">
-                    <input
-                      id="image-upload"
-                      ref={fileInputRef}
-                      type="file"
-                      multiple
-                      accept="image/*"
-                      onChange={handleFileSelection}
-                      className="flex-grow text-sm text-gray-300
-                        file:mr-4 file:py-2 file:px-4
-                        file:rounded-md file:border-0
-                        file:text-sm file:font-medium
-                        file:bg-blue-50 file:text-blue-700
-                        hover:file:bg-blue-100"
-                    />
-                    <button
-                      type="button"
-                      onClick={handleUpload}
-                      className="py-2 px-4 bg-blue-600 border border-transparent rounded-md shadow-sm text-sm font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
-                    >
-                      Upload Images
-                    </button>
-                  </div>
-                  {selectedFiles.length > 0 && (
-                    <p className="mt-2 text-sm text-gray-600">
-                      {selectedFiles.length} file(s) selected. Click "Upload
-                      Images" to add them to the gallery.
-                    </p>
-                  )}
-                </div>
-
-                <div className="mt-8">
+                <div className="mt-1">
                   <h3 className="text-lg font-medium mb-4">Gallery Images</h3>
                   {allImages.length === 0 ? (
                     <p className="text-gray-300 text-center py-8">
