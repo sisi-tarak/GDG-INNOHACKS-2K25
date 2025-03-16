@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import pdfDoc from "../../assets/Resume/sisindrisingamsetti_resume.pdf";
 import img1 from "../../assets/logo.jpg";
+import AboutSection from "../AboutSection/AboutSection";
 
 const HackathonPage = ({ manualImages = [] }) => {
   const [activeTab, setActiveTab] = useState("about");
@@ -245,54 +246,7 @@ const HackathonPage = ({ manualImages = [] }) => {
           </button>
         </div>
 
-        {activeTab === "about" && (
-          <div className="mt-6">
-            <div className="bg-footerBgColor shadow rounded-lg overflow-hidden">
-              <div className="px-6 py-5 border-b border-gray-800">
-                <h2 className="text-xl font-semibold text-white">
-                  About TechHack 2025
-                </h2>
-                <p className="text-sm text-gray-200">
-                  The premier hackathon for innovative tech solutions
-                </p>
-              </div>
-              <div className="p-6 space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Our Mission</h3>
-                  <p className="text-gray-400">
-                    TechHack brings together the brightest minds to solve
-                    real-world problems through technology. Over 48 hours, teams
-                    collaborate to build innovative solutions that address
-                    pressing challenges in healthcare, education,
-                    sustainability, and more.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">Key Highlights</h3>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-400">
-                    <li>500+ participants from across the globe</li>
-                    <li>$50,000 in prizes and resources</li>
-                    <li>30+ industry mentors providing guidance</li>
-                    <li>Workshops on cutting-edge technologies</li>
-                    <li>Networking opportunities with tech leaders</li>
-                  </ul>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    Previous Winners
-                  </h3>
-                  <p className="text-gray-400">
-                    Our past winners have gone on to secure funding, launch
-                    startups, and contribute to open-source projects that impact
-                    millions of users worldwide.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
+        {activeTab === "about" && <AboutSection />}
 
         {activeTab === "gallery" && (
           <div className="mt-6">
@@ -446,7 +400,7 @@ const HackathonPage = ({ manualImages = [] }) => {
               <div className="px-6 py-4 mb-4 border-t border-gray-800">
                 <p className="text-sm text-gray-400">
                   Can't find your certificate? Contact us at
-                   support@techhack.com
+                  support@techhack.com
                 </p>
               </div>
             </div>
