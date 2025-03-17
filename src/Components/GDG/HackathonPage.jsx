@@ -16,45 +16,45 @@ import pdfCert12 from "../../assets/web-certifications/Code crafters - Rallapall
 import pdfCert13 from "../../assets/web-certifications/Code Crew - Kaitha Teja Sri .pdf";
 import pdfCert14 from "../../assets/web-certifications/Code Crew - Likhitha Posa.pdf";
 import pdfCert15 from "../../assets/web-certifications/Code Crew - Ramagowni Mokshitha.pdf";
-import pdfCert16 from "../../assets/web-certifications/Code Crew - Sadaala deepthi.pdf";
-import pdfCert17 from "../../assets/web-certifications/Code Crew - Thanikonda Sai Manvitha.pdf";
+import pdfCert16 from "../../assets/web-certifications/Code Crew - Saddala deepthi.pdf";
+import pdfCert17 from "../../assets/web-certifications/Code Crew - Thanikonda Muni Sai Manvitha.pdf";
 import pdfCert18 from "../../assets/web-certifications/Code Ninjas - Alluru Ramya.pdf";
 import pdfCert19 from "../../assets/web-certifications/Code ninjas - Gownipalli Harshitha.pdf";
 import pdfCert20 from "../../assets/web-certifications/Code ninjas - Perrala Akhila.pdf";
 import pdfCert21 from "../../assets/web-certifications/Code Ninjas - Ponneri Manasa.pdf";
 import pdfCert22 from "../../assets/web-certifications/Code Ninjas - Puthuru Samatha.pdf";
-import pdfCert23 from "../../assets/web-certifications/Code pirates  - Kuppireddy Nikhil .pdf";
+import pdfCert23 from "../../assets/web-certifications/Code pirates  - Kuppireddy Nikhil.pdf";
 import pdfCert24 from "../../assets/web-certifications/Code pirates  - N. Lakshmi prasanna.pdf";
 import pdfCert25 from "../../assets/web-certifications/Code pirates - M.Harsha Vardan Reddy.pdf";
 import pdfCert26 from "../../assets/web-certifications/Code pirates - S A Muskaan.pdf";
 import pdfCert27 from "../../assets/web-certifications/Code sisters  - S. Bhavana.pdf";
-import pdfCert28 from "../../assets/web-certifications/Code sisters - Kavya Penumadu .pdf";
+import pdfCert28 from "../../assets/web-certifications/Code sisters - Kavya Penumadu.pdf";
 import pdfCert29 from "../../assets/web-certifications/Code sisters - Putturu senthilkumar vedeshwari.pdf";
 import pdfCert30 from "../../assets/web-certifications/Code sisters - Sankarapu Navya.pdf";
 import pdfCert31 from "../../assets/web-certifications/Code trio - Amruthala Surya.pdf";
-import pdfCert32 from "../../assets/web-certifications/Code trio - R.Thimme Gowd .pdf";
+import pdfCert32 from "../../assets/web-certifications/Code trio - R.Thimme Gowd.pdf";
 import pdfCert33 from "../../assets/web-certifications/Code trio - Shaik imam khasim.pdf";
-import pdfCert34 from "../../assets/web-certifications/Codsters - Katari Tharun Teja.pdf";
+import pdfCert34 from "../../assets/web-certifications/Codsters -  Katari Tharun Teja.pdf";
 import pdfCert35 from "../../assets/web-certifications/Codsters - Aasrita Reddy C.pdf";
-import pdfCert36 from "../../assets/web-certifications/Codsters - Chalamalla hemanth Chowdary.pdf";
+import pdfCert36 from "../../assets/web-certifications/Codsters - Chalichalamala hemanth Chowdary.pdf";
 import pdfCert37 from "../../assets/web-certifications/Codsters - GADDAM HEMANTH.pdf";
 import pdfCert38 from "../../assets/web-certifications/Codsters - Kolleti varshini.pdf";
-import pdfCert39 from "../../assets/web-certifications/Dare Devils - G.Anurag Harshith.pdf";
+import pdfCert39 from "../../assets/web-certifications/Dare Devils  - G.Anurag Harshith.pdf";
 import pdfCert40 from "../../assets/web-certifications/Dare Devils - Tadakara Dinesh.pdf";
 import pdfCert41 from "../../assets/web-certifications/DareDevils - M K Tharun Sai.pdf";
-import pdfCert42 from "../../assets/web-certifications/DIGITAL DYNAMITES - P.Amrutha.pdf";
-import pdfCert43 from "../../assets/web-certifications/DIGITAL DYNAMITES - Y.Y.Nandini Vardhan Reddy.pdf";
-import pdfCert44 from "../../assets/web-certifications/DIGITAL DYNAMITES - YALLANURU REVANTH KUMAR.pdf";
+import pdfCert42 from "../../assets/web-certifications/DIGITAL DYNAMITES  - P.Amrutha.pdf";
+import pdfCert43 from "../../assets/web-certifications/DIGITAL DYNAMITES  - Y.Y.Nandhi Vardhan Reddy.pdf";
+import pdfCert44 from "../../assets/web-certifications/DIGITAL DYNAMITES  - YALLANURU REVANTH KUMAR.pdf";
 import pdfCert45 from "../../assets/web-certifications/DIGITAL DYNAMITES - Shaik Afrin.pdf";
 import pdfCert46 from "../../assets/web-certifications/Front End Force - K Sai.pdf";
 import pdfCert47 from "../../assets/web-certifications/Front-End Force - K P Mohitha.pdf";
-import pdfCert48 from "../../assets/web-certifications/Hack&Learn@os - Pillapalem Tejaswi.pdf";
-import pdfCert49 from "../../assets/web-certifications/Hackaholics - Gayathri Appalredd.pdf";
+import pdfCert48 from "../../assets/web-certifications/Hack&Learn@05 - Pillapalem Tejaswi.pdf";
+import pdfCert49 from "../../assets/web-certifications/Hackaholics  - Gayathri Appalreddy.pdf";
 import pdfCert50 from "../../assets/web-certifications/Hackaholics - Akepati Devasena.pdf";
 import pdfCert51 from "../../assets/web-certifications/Hackaholics - Syed aisha Sidhiqua.pdf";
 import pdfCert52 from "../../assets/web-certifications/Hackathon Makers - K Mahamood Ajad.pdf";
 import pdfCert53 from "../../assets/web-certifications/Hackathon Makers - P.Jayanth kumar.pdf";
-import pdfCert54 from "../../assets/web-certifications/Hackathon Makers - S USHA SAI IKITHA REDDY.pdf";
+import pdfCert54 from "../../assets/web-certifications/Hackathon Makers - S USHA SAI LIKHITHA REDDY.pdf";
 import pdfCert55 from "../../assets/web-certifications/Hackathon Makers - Samanthu Harini.pdf";
 import pdfCert56 from "../../assets/web-certifications/Hackathon Makers - Sure Bindhu.pdf";
 import pdfCert57 from "../../assets/web-certifications/HUGS FOR BUGS - Edagotti Kishore.pdf";
@@ -68,14 +68,14 @@ import pdfCert64 from "../../assets/web-certifications/Judgement Day - VEMPALLI 
 import pdfCert65 from "../../assets/web-certifications/Judgement Day - Vemula Bala Sai Kumar.pdf";
 import pdfCert66 from "../../assets/web-certifications/Nexus - M.Kavya.pdf";
 import pdfCert67 from "../../assets/web-certifications/Nexus - M.Penchala Bhavana.pdf";
-import pdfCert68 from "../../assets/web-certifications/Novalocks - Akula Pushapanjali.pdf";
+import pdfCert68 from "../../assets/web-certifications/Novalocks - Katta Pushpanjali.pdf";
 import pdfCert69 from "../../assets/web-certifications/Novalocks - Paidipula charan.pdf";
 import pdfCert70 from "../../assets/web-certifications/PANCHKAVACH - MALLIBOYINA POOJA SRI.pdf";
 import pdfCert71 from "../../assets/web-certifications/Panchkavach - MARPURI LIKITHA.pdf";
 import pdfCert72 from "../../assets/web-certifications/PANCHKAVACH - Mekala Pavithra.pdf";
 import pdfCert73 from "../../assets/web-certifications/PANCHKAVACH - Mukkamalla Venkata Bhavana.pdf";
 import pdfCert74 from "../../assets/web-certifications/PANCHKAVACH - Nimmala Sravanthi.pdf";
-import pdfCert75 from "../../assets/web-certifications/Phoenix - Purru Tulasi.pdf";
+import pdfCert75 from "../../assets/web-certifications/Phoenix  - Purru Tulasi.pdf";
 import pdfCert76 from "../../assets/web-certifications/Shanthi - Earomchetty Harshitha.pdf";
 import pdfCert77 from "../../assets/web-certifications/Soft tech - BANDA VIJAY KUMAR.pdf";
 import pdfCert78 from "../../assets/web-certifications/Soft tech - Jaswanth Kumar Mamilla.pdf";
@@ -83,17 +83,17 @@ import pdfCert79 from "../../assets/web-certifications/Soft tech - Kalakada Pooj
 import pdfCert80 from "../../assets/web-certifications/Soft tech - Y Durga Venkata Deepak.pdf";
 import pdfCert81 from "../../assets/web-certifications/Soft Tech - Yagateela Suneel.pdf";
 import pdfCert82 from "../../assets/web-certifications/Soft Teech - MOPURI YASWANTH.pdf";
-import pdfCert83 from "../../assets/web-certifications/Strange Thinkers - Chillakuru pardha saradhi.pdf";
+import pdfCert83 from "../../assets/web-certifications/Strange Thinkers  - Chillakuru pardha saradhi.pdf";
 import pdfCert84 from "../../assets/web-certifications/Strange Thinkers - POTLA CHAITANYA.pdf";
 import pdfCert85 from "../../assets/web-certifications/Strange Thinkers - Sayed Yasin.pdf";
 import pdfCert86 from "../../assets/web-certifications/Strange Thinkers - Shaik Aisha.pdf";
 import pdfCert87 from "../../assets/web-certifications/Stranger Thinkers - YOGISH PASUPULETI.pdf";
-import pdfCert88 from "../../assets/web-certifications/Team anonymous - Bukkasamudram Surya Vardhan Reddy.pdf";
-import pdfCert89 from "../../assets/web-certifications/Team anonymous - Golla Vinod Kumar.pdf";
-import pdfCert90 from "../../assets/web-certifications/Team Asphalt - Shaik.AsifAzeem.pdf";
-import pdfCert91 from "../../assets/web-certifications/Team asphalt - Sk.shabber.pdf";
+import pdfCert88 from "../../assets/web-certifications/Team anonymous  - Bukkasamudram Surya Vardhan Reddy.pdf";
+import pdfCert89 from "../../assets/web-certifications/Team anonymous  - Golla Vinod Kumar.pdf";
+import pdfCert90 from "../../assets/web-certifications/Team Asphalt  - Shaik.AsifAzeem.pdf";
+import pdfCert91 from "../../assets/web-certifications/Team asphalt  - Sk.shabber.pdf";
 import pdfCert92 from "../../assets/web-certifications/Team Asphalt - SG.Vardhan Vikranth Reddy.pdf";
-import pdfCert93 from "../../assets/web-certifications/Team Asphalt - Shaik Imran Hashimi.pdf";
+import pdfCert93 from "../../assets/web-certifications/Team Asphalt - Shaik .Imran Hashmi.pdf";
 import pdfCert94 from "../../assets/web-certifications/Tech Titans - Balaji Rupasri.pdf";
 import pdfCert95 from "../../assets/web-certifications/TECH TITANS - BALASA CHENCHU AALAYA.pdf";
 import pdfCert96 from "../../assets/web-certifications/TECH TITANS - ETLAM CHASVITHA REDDY.pdf";
@@ -101,48 +101,48 @@ import pdfCert97 from "../../assets/web-certifications/Tech Titans - JEELA EESHA
 import pdfCert98 from "../../assets/web-certifications/Tech Titans - KANUPURU BRUNDA.pdf";
 import pdfCert99 from "../../assets/web-certifications/Tech Titans - Pandi vamsi.pdf";
 import pdfCert100 from "../../assets/web-certifications/Tech titans - SHAIK ARSHIYA TAJ.pdf";
-import pdfCert101 from "../../assets/web-certifications/TECH TITANS - VANDAVASI DILEEQ.pdf";
-import pdfCert102 from "../../assets/web-certifications/Tech web - Pujitha Lingala.pdf";
+import pdfCert101 from "../../assets/web-certifications/TECH TITANS - VANDAVASI DILEEO.pdf";
+import pdfCert102 from "../../assets/web-certifications/Tech web  - Pujitha Lingala.pdf";
 import pdfCert103 from "../../assets/web-certifications/Tech web - CHITTEM KAMESWARI APARNA.pdf";
 import pdfCert104 from "../../assets/web-certifications/Tech web - Enapati keerthi.pdf";
-import pdfCert105 from "../../assets/web-certifications/TechSquad - Motupalli Chandana.pdf";
+import pdfCert105 from "../../assets/web-certifications/TechSquad  - Motupalli Chandana.pdf";
 import pdfCert106 from "../../assets/web-certifications/TechSquad - PeddaKkagari Shalini.pdf";
 import pdfCert107 from "../../assets/web-certifications/TechSquad - Ramagiri Neha.pdf";
-import pdfCert108 from "../../assets/web-certifications/Teen Titans - Adeppagari Pallavi.pdf";
-import pdfCert109 from "../../assets/web-certifications/Teen Titans - Cheemala Supriya.pdf";
-import pdfCert110 from "../../assets/web-certifications/Teen Titans - Siri Ankitha.pdf";
-import pdfCert111 from "../../assets/web-certifications/Teen Titans - SUJITHA BHARATHALA.pdf";
-import pdfCert112 from "../../assets/web-certifications/Teen Titans - Chennareddy Swetha.pdf";
+import pdfCert108 from "../../assets/web-certifications/Teen Titans  - Adeppagari Pallavi.pdf";
+import pdfCert109 from "../../assets/web-certifications/Teen Titans  - Cheemala Supriya.pdf";
+import pdfCert110 from "../../assets/web-certifications/Teen Titans  - Siri Ankitha.pdf";
+import pdfCert111 from "../../assets/web-certifications/Teen Titans  - SUJITHA BHARATHALA.pdf";
+import pdfCert112 from "../../assets/web-certifications/Teen Titans - Chennareddy Varshitha.pdf";
 import pdfCert113 from "../../assets/web-certifications/THE QUAD 4 - Tejasvi Pakala.pdf";
 import pdfCert114 from "../../assets/web-certifications/TWEAK - Shaik Imran.pdf";
 import pdfCert115 from "../../assets/web-certifications/TWEAK - SRIPURAM GUNASEKHAR.pdf";
-import pdfCert116 from "../../assets/web-certifications/Visioneers - Kavadi Tejasri.pdf";
-import pdfCert117 from "../../assets/web-certifications/Visioneers - Kurugodu Sushma.pdf";
+import pdfCert116 from "../../assets/web-certifications/Visioneers  - Kavadi Tejasri.pdf";
+import pdfCert117 from "../../assets/web-certifications/Visioneers  - Kurugodu Sushma.pdf";
 import pdfCert118 from "../../assets/web-certifications/Visioneers - Kalavagunta Monisha.pdf";
 import pdfCert119 from "../../assets/web-certifications/Visioneers - Krishnan Mounika.pdf";
-import pdfCert120 from "../../assets/web-certifications/Visioneers - Nandi Mangalam Geerani.pdf";
+import pdfCert120 from "../../assets/web-certifications/Visioneers - Nandi Mangalam Geervani.pdf";
 import pdfCert121 from "../../assets/web-certifications/Web Dev - K.Charith.pdf";
 import pdfCert122 from "../../assets/web-certifications/WEB DEV - S L KESAVAANANDA.pdf";
 import pdfCert123 from "../../assets/web-certifications/Web Dev - Tatigunta Chasanth Reddy.pdf";
 import pdfCert124 from "../../assets/web-certifications/Web Dev - Thathappagari Hemanth.pdf";
 import pdfCert125 from "../../assets/web-certifications/Web dev - veeraballi karthik kumar reddy.pdf";
-import pdfCert126 from "../../assets/web-certifications/Web Masters - Kunchala Lahari.pdf";
-import pdfCert127 from "../../assets/web-certifications/Web masters - S HEMACHANDRIKA.pdf";
+import pdfCert126 from "../../assets/web-certifications/Web Masters  - Kunchala Lahari.pdf";
+import pdfCert127 from "../../assets/web-certifications/Web masters  - S HEMACHANDRIKA.pdf";
 import pdfCert128 from "../../assets/web-certifications/Web Masters - Budensab Sameera.pdf";
 import pdfCert129 from "../../assets/web-certifications/Web Masters - Gagguturu Harshiya.pdf";
-import pdfCert130 from "../../assets/web-certifications/Web Titans - Brahmanapalli Mohitha.pdf";
-import pdfCert131 from "../../assets/web-certifications/Web Titans - Busannagari Savarni.pdf";
+import pdfCert130 from "../../assets/web-certifications/Web Titans  - Bramhanapalli Mohitha.pdf";
+import pdfCert131 from "../../assets/web-certifications/Web Titans  - Busannagari Savarni.pdf";
 import pdfCert132 from "../../assets/web-certifications/Web Titans - Bogineni Srikekha.pdf";
-import pdfCert133 from "../../assets/web-certifications/Web Titans - Chendilkumar kavya.pdf";
-import pdfCert134 from "../../assets/web-certifications/Web Trio - Panabakam Devi.pdf";
+import pdfCert133 from "../../assets/web-certifications/Web Titans - Chendilikumar kavya.pdf";
+import pdfCert134 from "../../assets/web-certifications/Web Trio  - Panabakam Devi.pdf";
 import pdfCert135 from "../../assets/web-certifications/Web Trio - Kavali Pravallika.pdf";
 import pdfCert136 from "../../assets/web-certifications/Web Trio - Peram.Akhila.pdf";
 import pdfCert137 from "../../assets/web-certifications/Web Trio - Thanusha peneti.pdf";
-import pdfCert138 from "../../assets/web-certifications/Web Warriors - Chinnam Maheswari.pdf";
-import pdfCert139 from "../../assets/web-certifications/Web Warriors - CHITTEPU GNANITHA REDDY.pdf";
-import pdfCert140 from "../../assets/web-certifications/Web Warriors - CHITTETI SWATHI.pdf";
-import pdfCert141 from "../../assets/web-certifications/Web Warriors - Gajjala Vaminipriya.pdf";
-import pdfCert142 from "../../assets/web-certifications/Web Warriors - Gundluru Chandrika Sravanthi.pdf";
+import pdfCert138 from "../../assets/web-certifications/Web Warriors  - Chinnam Maheswari.pdf";
+import pdfCert139 from "../../assets/web-certifications/Web Warriors  - CHITTEPU GNANITHA REDDY.pdf";
+import pdfCert140 from "../../assets/web-certifications/Web Warriors  - CHITTETI SWATHI.pdf";
+import pdfCert141 from "../../assets/web-certifications/Web Warriors  - Gajjala Yaminipriya.pdf";
+import pdfCert142 from "../../assets/web-certifications/Web Warriors  - Gundluru Chandrika Sravanthi.pdf";
 import pdfCert143 from "../../assets/web-certifications/XTron - Dama Charan.pdf";
 import pdfCert144 from "../../assets/web-certifications/XTron - G NANDHEESWAR REDDY.pdf";
 import pdfCert145 from "../../assets/web-certifications/XTron - G REDDY CHARAN.pdf";
@@ -151,7 +151,7 @@ import pdfCert147 from "../../assets/web-certifications/XTron - P.L.Deepak.pdf";
 import pdfCert148 from "../../assets/web-certifications/Yuva Teja - DONDETI MONIKA.pdf";
 import pdfCert149 from "../../assets/web-certifications/Yuva Teja - G POOJITHA.pdf";
 import pdfCert150 from "../../assets/web-certifications/Yuva Teja - Shanthi Geepalem.pdf";
-import pdfCert151 from "../../assets/web-certifications/Yuvateja - Pyuvateja.pdf";
+import pdfCert151 from "../../assets/web-certifications/Yuvateja - P.yuvateja.pdf";
 
 import img1 from "../../assets/logo.jpg";
 import AboutSection from "../AboutSection/AboutSection";
@@ -1453,10 +1453,13 @@ const HackathonPage = ({ manualImages = [] }) => {
               </div>
               <div className="p-6">
                 <div className="mt-1">
-                  <h3 className="text-lg font-medium mb-4">Gallery Images</h3>
+                  <h3 className="text-lg font-medium mb-4">
+                    Gallery Images
+                  </h3>
                   {allImages.length === 0 ? (
                     <p className="text-gray-300 text-center py-8">
-                      No images uploaded yet. Share your hackathon experience!
+                      No images uploaded yet. Share your hackathon
+                      experience!
                     </p>
                   ) : (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -1471,7 +1474,8 @@ const HackathonPage = ({ manualImages = [] }) => {
                             className="w-full h-48 object-cover"
                           />
                           <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 text-white p-2 text-sm truncate">
-                            {image.name || `GDG Innohacks 2K25 - ${index + 1}`}
+                            {image.name ||
+                              `GDG Innohacks 2K25 - ${index + 1}`}
                           </div>
                         </div>
                       ))}
@@ -1548,7 +1552,10 @@ const HackathonPage = ({ manualImages = [] }) => {
                       </thead>
                       <tbody className="bg-footerBgColor">
                         {certificates.map((cert) => (
-                          <tr key={cert.id} className="hover:bg-zinc-800">
+                          <tr
+                            key={cert.id}
+                            className="hover:bg-zinc-800"
+                          >
                             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-white">
                               {cert.name}
                             </td>
@@ -1561,7 +1568,10 @@ const HackathonPage = ({ manualImages = [] }) => {
                             <td className="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
                               <button
                                 onClick={() =>
-                                  downloadCertificate(cert.filename, cert.team)
+                                  downloadCertificate(
+                                    cert.filename,
+                                    cert.team
+                                  )
                                 }
                                 className="inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-400 bg-transparent hover:bg-gray-200 hover:text-backgroundColor transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                               >
