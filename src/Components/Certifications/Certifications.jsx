@@ -97,7 +97,7 @@ import pdfCert95 from "../../assets/web-certifications/TECH TITANS - BALASA CHEN
 import pdfCert96 from "../../assets/web-certifications/TECH TITANS - ETLAM CHASVITHA REDDY.pdf";
 import pdfCert97 from "../../assets/web-certifications/Tech Titans - JEELA EESHA.pdf";
 import pdfCert98 from "../../assets/web-certifications/Tech Titans - KANUPURU BRUNDA.pdf";
-import pdfCert99 from "../../assets/web-certifications/Tech Titans - Pandi vamsi.pdf";
+import pdfCert99 from "../../assets/web-certifications/TECH TITANS - Pandi vamsi.pdf";
 import pdfCert100 from "../../assets/web-certifications/Tech titans - SHAIK ARSHIYA TAJ.pdf";
 import pdfCert101 from "../../assets/web-certifications/TECH TITANS - VANDAVASI DILEEO.pdf";
 import pdfCert102 from "../../assets/web-certifications/Tech web  - Pujitha Lingala.pdf";
