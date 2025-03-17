@@ -77,7 +77,7 @@ import pdfCert74 from "../../assets/web-certifications/PANCHKAVACH - Nimmala Sra
 import pdfCert75 from "../../assets/web-certifications/Phoenix  - Purru Tulasi.pdf";
 import pdfCert76 from "../../assets/web-certifications/Shanthi - Earomchetty Harshitha.pdf";
 import pdfCert77 from "../../assets/web-certifications/Soft tech - BANDA VIJAY KUMAR.pdf";
-import pdfCert78 from "../../assets/web-certifications/Soft tech - Jaswanth kumar Mamilla.pdf";
+import pdfCert78 from "../../assets/web-certifications/Soft tech - Jaswanth Kumar Mamilla.pdf";
 import pdfCert79 from "../../assets/web-certifications/Soft tech - Kalakada Poojitha.pdf";
 import pdfCert80 from "../../assets/web-certifications/Soft tech - Y Durga Venkata Deepak.pdf";
 import pdfCert81 from "../../assets/web-certifications/Soft Tech - Yagateela Suneel.pdf";
