@@ -1,5 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
-const pdfFiles = import.meta.glob("../assets/web-certifications/*.pdf");
+import React, { useState, useRef } from "react";
 
 import pdfCert01 from "../../assets/web-certifications/Asphalt - Satambeti. Chandu.pdf";
 import pdfCert02 from "../../assets/web-certifications/Avengers  - Gavve Sravani .pdf";
@@ -153,8 +152,50 @@ import pdfCert149 from "../../assets/web-certifications/Yuva Teja - G POOJITHA.p
 import pdfCert150 from "../../assets/web-certifications/Yuva Teja - Shanthi Geepalem.pdf";
 import pdfCert151 from "../../assets/web-certifications/Yuvateja - P.yuvateja.pdf";
 
-import img1 from "../../assets/logo.jpg";
-import AboutSection from "../AboutSection/AboutSection";
+import pdfCert152 from "../../assets/uiux-certifications/The Coders - GAYATHRI SYAMANABOYINA.pdf";
+import pdfCert153 from "../../assets/uiux-certifications/The coders - Vijayalakshmi Anala.pdf";
+import pdfCert154 from "../../assets/uiux-certifications/The Debuggers - A. V. Preethi.pdf";
+import pdfCert155 from "../../assets/uiux-certifications/The Debuggers - B. Veera Tejaswini.pdf";
+import pdfCert156 from "../../assets/uiux-certifications/The Debuggers - B.pallavi.pdf";
+import pdfCert157 from "../../assets/uiux-certifications/The Debuggers - Karnati Jahnavi.pdf";
+import pdfCert158 from "../../assets/uiux-certifications/UI_UX visioners - Chukka Reddy Anusha.pdf";
+import pdfCert159 from "../../assets/uiux-certifications/UI_UX visioners - Harika Duddela.pdf";
+import pdfCert160 from "../../assets/uiux-certifications/UI_UX visioners - J.sravanthi.pdf";
+import pdfCert161 from "../../assets/uiux-certifications/UX3 - Aylam Rachana Sree.pdf";
+import pdfCert162 from "../../assets/uiux-certifications/UX3 - NEELI MUNI PREETHIKA.pdf";
+import pdfCert163 from "../../assets/uiux-certifications/UX3 - S A sadiya thasneem.pdf";
+import pdfCert164 from "../../assets/uiux-certifications/UX3 - Takkelapati Abhinaya Chowdary.pdf";
+import pdfCert165 from "../../assets/uiux-certifications/Work on code - Othuri sowmya sree.pdf";
+import pdfCert166 from "../../assets/uiux-certifications/Work on design  - PENDEM DHARANI.pdf";
+import pdfCert167 from "../../assets/uiux-certifications/404 brain not found  - C NITHIN.pdf";
+import pdfCert168 from "../../assets/uiux-certifications/404 Brain Not Found - Kumkala Sai Yadav.pdf";
+import pdfCert169 from "../../assets/uiux-certifications/404 brain not found - Rokkam Som Sampreeth.pdf";
+import pdfCert170 from "../../assets/uiux-certifications/BLOOMING CODERS  - SYAMALA ACHYUTH KUMAR REDDY.pdf";
+import pdfCert171 from "../../assets/uiux-certifications/BLOOMING CODERS  - VIJAYARAJ SUDHARSHAN.pdf";
+import pdfCert172 from "../../assets/uiux-certifications/BLOOMING CODERS - VANKAYALA L N V V S KRISHNA RAO.pdf";
+import pdfCert173 from "../../assets/uiux-certifications/BLOOMING CODERS - Vegula Hamsini.pdf";
+import pdfCert174 from "../../assets/uiux-certifications/BLOOMING CODERS - VETTI VISHNU PRIYA.pdf";
+import pdfCert175 from "../../assets/uiux-certifications/Creative coders - Rushika Tanguturu.pdf";
+import pdfCert176 from "../../assets/uiux-certifications/Creative coders - Surineni likith.pdf";
+import pdfCert177 from "../../assets/uiux-certifications/Creative coders - T.Pavan Chaitra.pdf";
+import pdfCert178 from "../../assets/uiux-certifications/Dare Devils - Kovuru Rohith Karthik.pdf";
+import pdfCert179 from "../../assets/uiux-certifications/Design dynamo - M.Manasa.pdf";
+import pdfCert180 from "../../assets/uiux-certifications/Design dynamo - Makireddy Sowmya.pdf";
+import pdfCert181 from "../../assets/uiux-certifications/Design dynamo - PALLAVALI HEMA SREE.pdf";
+import pdfCert182 from "../../assets/uiux-certifications/Design dynamo - Swarna Pujitha.pdf";
+import pdfCert183 from "../../assets/uiux-certifications/Figma flow - Rohitha Chandhaluru.pdf";
+import pdfCert184 from "../../assets/uiux-certifications/Figma flow - Sandhya Sagala.pdf";
+import pdfCert185 from "../../assets/uiux-certifications/Figma flow - Shaik Muskan.pdf";
+import pdfCert186 from "../../assets/uiux-certifications/Figma flow - Thanguturi Dhakshayani.pdf";
+import pdfCert187 from "../../assets/uiux-certifications/Figma flow - Ulli Ganga Devi.pdf";
+import pdfCert188 from "../../assets/uiux-certifications/Hackers  - B Ashok Kumar Reddy.pdf";
+import pdfCert189 from "../../assets/uiux-certifications/Hackers - Harshith Nagipogu.pdf";
+import pdfCert190 from "../../assets/uiux-certifications/Talluru keerthana - Talluru Keerthana.pdf";
+import pdfCert191 from "../../assets/uiux-certifications/Tech Masters  - Velpula Lakshmi Nikitha.pdf";
+import pdfCert192 from "../../assets/uiux-certifications/Tech masters - K. Megana.pdf";
+import pdfCert193 from "../../assets/uiux-certifications/Tech masters - Pindi Vaishnavi.pdf";
+import pdfCert194 from "../../assets/uiux-certifications/The coders  - Polepalli Haritha.pdf";
+
 const Certifications = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const fileInputRef = useRef(null);
@@ -1216,6 +1257,307 @@ const Certifications = () => {
       team: "Yuvateja",
       project: "Web Development",
       filename: pdfCert151,
+    },
+    {
+      id: 152,
+      name: "GAYATHRI SYAMANABOYINA",
+      team: "The Coders",
+      project: "UI/UX Designing",
+      filename: pdfCert152,
+    },
+    {
+      id: 153,
+      name: "Vijayalakshmi Anala",
+      team: "The Coders",
+      project: "UI/UX Designing",
+      filename: pdfCert153,
+    },
+    {
+      id: 154,
+      name: "A.V. Preethi",
+      team: "The Coders",
+      project: "UI/UX Designing",
+      filename: pdfCert154,
+    },
+    {
+      id: 155,
+      name: "B. Veera Tejaswini",
+      team: "The Debuggers",
+      project: "UI/UX Designing",
+      filename: pdfCert155,
+    },
+    {
+      id: 156,
+      name: "B.pallavi",
+      team: "The Debuggers",
+      project: "UI/UX Designing",
+      filename: pdfCert156,
+    },
+    {
+      id: 157,
+      name: "Kamati Jahnavi",
+      team: "The Debuggers",
+      project: "UI/UX Designing",
+      filename: pdfCert157,
+    },
+    {
+      id: 158,
+      name: "Chukka Reddy Anusha",
+      team: "UI UX Visioners",
+      project: "UI/UX Designing",
+      filename: pdfCert158,
+    },
+    {
+      id: 159,
+      name: "Harika Duddela",
+      team: "UI UX Visioners",
+      project: "UI/UX Designing",
+      filename: pdfCert159,
+    },
+    {
+      id: 160,
+      name: "J.sravanthi",
+      team: "UI UX Visioners",
+      project: "UI/UX Designing",
+      filename: pdfCert160,
+    },
+    {
+      id: 161,
+      name: "Ayiam Rachana Sree",
+      team: "UX3",
+      project: "UI/UX Designing",
+      filename: pdfCert161,
+    },
+    {
+      id: 162,
+      name: "NEELI MUNI PREETIKA",
+      team: "UX3",
+      project: "UI/UX Designing",
+      filename: pdfCert162,
+    },
+    {
+      id: 163,
+      name: "S A sadiya thaneem",
+      team: "UX3",
+      project: "UI/UX Designing",
+      filename: pdfCert163,
+    },
+    {
+      id: 164,
+      name: "Takkelapati Abhinaya Chowdary",
+      team: "UX3",
+      project: "UI/UX Designing",
+      filename: pdfCert164,
+    },
+    {
+      id: 165,
+      name: "Churi gowmya sree",
+      team: "Work on code",
+      project: "UI/UX Designing",
+      filename: pdfCert165,
+    },
+    {
+      id: 166,
+      name: "PENDEM DHARANI",
+      team: "Work on design",
+      project: "UI/UX Designing",
+      filename: pdfCert166,
+    },
+    {
+      id: 167,
+      name: "C NITHIN",
+      team: "404 brain not found",
+      project: "UI/UX Designing",
+      filename: pdfCert167,
+    },
+    {
+      id: 168,
+      name: "Kumkala Sai Yadav",
+      team: "404 Brain Not Found",
+      project: "UI/UX Designing",
+      filename: pdfCert168,
+    },
+    {
+      id: 169,
+      name: "Rokkam Som Sampreeth",
+      team: "404 brain not found",
+      project: "UI/UX Designing",
+      filename: pdfCert169,
+    },
+    {
+      id: 170,
+      name: "SYAMALA ACHYUTH KUMAR REDDY",
+      team: "BLOOMING CODERS",
+      project: "UI/UX Designing",
+      filename: pdfCert170,
+    },
+    {
+      id: 171,
+      name: "VIJAYALA SUDHARSHAN",
+      team: "BLOOMING CODERS",
+      project: "UI/UX Designing",
+      filename: pdfCert171,
+    },
+    {
+      id: 172,
+      name: "VANKAYALA N V V S KRISHNA RAO",
+      team: "BLOOMING CODERS",
+      project: "UI/UX Designing",
+      filename: pdfCert172,
+    },
+    {
+      id: 173,
+      name: "Vegula Hemsini",
+      team: "BLOOMING CODERS",
+      project: "UI/UX Designing",
+      filename: pdfCert173,
+    },
+    {
+      id: 174,
+      name: "VETTI MOUNIKA",
+      team: "BLOOMING CODERS",
+      project: "UI/UX Designing",
+      filename: pdfCert174,
+    },
+    {
+      id: 175,
+      name: "Rushika Tanguturu",
+      team: "Creative coders",
+      project: "UI/UX Designing",
+      filename: pdfCert175,
+    },
+    {
+      id: 176,
+      name: "Surineni likith",
+      team: "Creative coders",
+      project: "UI/UX Designing",
+      filename: pdfCert176,
+    },
+    {
+      id: 177,
+      name: "T.Pavan Kumar",
+      team: "Creative coders",
+      project: "UI/UX Designing",
+      filename: pdfCert177,
+    },
+    {
+      id: 178,
+      name: "Kovuru Rohith Karthik",
+      team: "Dare Devils",
+      project: "UI/UX Designing",
+      filename: pdfCert178,
+    },
+    {
+      id: 179,
+      name: "M.Manasa",
+      team: "Design dynamo",
+      project: "UI/UX Designing",
+      filename: pdfCert179,
+    },
+    {
+      id: 180,
+      name: "Makireddy Sowmya",
+      team: "Design dynamo",
+      project: "UI/UX Designing",
+      filename: pdfCert180,
+    },
+    {
+      id: 181,
+      name: "PALLAVALI HEMA SREE",
+      team: "Design dynamo",
+      project: "UI/UX Designing",
+      filename: pdfCert181,
+    },
+    {
+      id: 182,
+      name: "Swarna Pujitha",
+      team: "Design dynamo",
+      project: "UI/UX Designing",
+      filename: pdfCert182,
+    },
+    {
+      id: 183,
+      name: "Rohitha Chuntupalli",
+      team: "Figma flow",
+      project: "UI/UX Designing",
+      filename: pdfCert183,
+    },
+    {
+      id: 184,
+      name: "Sandhya Sagala",
+      team: "Figma flow",
+      project: "UI/UX Designing",
+      filename: pdfCert184,
+    },
+    {
+      id: 185,
+      name: "Shaik Muskan",
+      team: "Figma flow",
+      project: "UI/UX Designing",
+      filename: pdfCert185,
+    },
+    {
+      id: 186,
+      name: "Thangulla Dhakshayani",
+      team: "Figma flow",
+      project: "UI/UX Designing",
+      filename: pdfCert186,
+    },
+    {
+      id: 187,
+      name: "Ulli Ganga Devi",
+      team: "Figma flow",
+      project: "UI/UX Designing",
+      filename: pdfCert187,
+    },
+    {
+      id: 188,
+      name: "B.Ashok Kumar Reddy",
+      team: "Hackers",
+      project: "UI/UX Designing",
+      filename: pdfCert188,
+    },
+    {
+      id: 189,
+      name: "Harshith Nagichetty",
+      team: "Hackers",
+      project: "UI/UX Designing",
+      filename: pdfCert189,
+    },
+    {
+      id: 190,
+      name: "Talluru Keerthana",
+      team: "Talluru keerthana",
+      project: "UI/UX Designing",
+      filename: pdfCert190,
+    },
+    {
+      id: 191,
+      name: "Velpula Lakshmi Nikitha",
+      team: "Tech Masters",
+      project: "UI/UX Designing",
+      filename: pdfCert191,
+    },
+    {
+      id: 192,
+      name: "K. Madhu priya",
+      team: "Tech masters",
+      project: "UI/UX Designing",
+      filename: pdfCert192,
+    },
+    {
+      id: 193,
+      name: "Pindi Vaishnavi",
+      team: "Tech masters",
+      project: "UI/UX Designing",
+      filename: pdfCert193,
+    },
+    {
+      id: 194,
+      name: "Polepalli Haritha",
+      team: "The coders",
+      project: "UI/UX Designing",
+      filename: pdfCert194,
     },
   ];
 
