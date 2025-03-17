@@ -1,20 +1,19 @@
 import React, { useState, useRef, useEffect } from "react";
 const pdfFiles = import.meta.glob("../assets/web-certifications/*.pdf");
 
-// First set of PDFs (Image 1)
 import pdfCert01 from "../../assets/web-certifications/Asphalt - Satambeti. Chandu.pdf";
-import pdfCert02 from "../../assets/web-certifications/Avengers - Gavve Sravani.pdf";
-import pdfCert03 from "../../assets/web-certifications/Avengers - K V Supriya.pdf";
-import pdfCert04 from "../../assets/web-certifications/Avengers - SINGAREDDYGARI SWATHI.pdf";
+import pdfCert02 from "../../assets/web-certifications/Avengers  - Gavve Sravani .pdf";
+import pdfCert03 from "../../assets/web-certifications/Avengers  - K V Supriya .pdf";
+import pdfCert04 from "../../assets/web-certifications/Avengers  - SINGAREDDYGARI SWATHI .pdf";
 import pdfCert05 from "../../assets/web-certifications/Avengers - Javvaji Meghana.pdf";
-import pdfCert06 from "../../assets/web-certifications/Code a-lot - BANDI DURGA BHAVANI.pdf";
+import pdfCert06 from "../../assets/web-certifications/Code a-lot - BANDI DURGA BHAVANI .pdf";
 import pdfCert07 from "../../assets/web-certifications/Code a-lot - KANALA SIREESHA.pdf";
-import pdfCert08 from "../../assets/web-certifications/Code a-lot - TALLURI HARSHITHA.pdf";
+import pdfCert08 from "../../assets/web-certifications/Code a-lot - TALLURU HARSHITHA .pdf";
 import pdfCert09 from "../../assets/web-certifications/Code crafters - M.Sushma Swaraj.pdf";
-import pdfCert10 from "../../assets/web-certifications/Code crafters - P.Bhanu Prakash Reddy.pdf";
+import pdfCert10 from "../../assets/web-certifications/Code crafters - P.Bhanu Prakash Reddy .pdf";
 import pdfCert11 from "../../assets/web-certifications/Code crafters - Polisetty Abitha.pdf";
 import pdfCert12 from "../../assets/web-certifications/Code crafters - Rallapalli Thulasi.pdf";
-import pdfCert13 from "../../assets/web-certifications/Code Crew - Kaitha Teja Sri.pdf";
+import pdfCert13 from "../../assets/web-certifications/Code Crew - Kaitha Teja Sri .pdf";
 import pdfCert14 from "../../assets/web-certifications/Code Crew - Likhitha Posa.pdf";
 import pdfCert15 from "../../assets/web-certifications/Code Crew - Ramagowni Mokshitha.pdf";
 import pdfCert16 from "../../assets/web-certifications/Code Crew - Sadaala deepthi.pdf";
@@ -290,1248 +289,1050 @@ const HackathonPage = ({ manualImages = [] }) => {
       name: "Gavve Sravani",
       team: "Avengers",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Avengers - Gavve Sravani.pdf"],
+      filename: pdfCert02,
     },
     {
       id: 3,
       name: "K V Supriya",
       team: "Avengers",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Avengers - K V Supriya.pdf"],
+      filename: pdfCert03,
     },
     {
       id: 4,
       name: "SINGAREDDYGARI SWATHI",
       team: "Avengers",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Avengers - SINGAREDDYGARI SWATHI.pdf"
-        ],
+      filename: pdfCert04,
     },
     {
       id: 5,
       name: "Javvaji Meghana",
       team: "Avengers",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Avengers - Javvaji Meghana.pdf"],
+      filename: pdfCert05,
     },
     {
       id: 6,
       name: "BANDI DURGA BHAVANI",
       team: "Code a-lot",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code a-lot - BANDI DURGA BHAVANI.pdf"
-        ],
+      filename: pdfCert06,
     },
     {
       id: 7,
       name: "KANALA SIREESHA",
       team: "Code a-lot",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code a-lot - KANALA SIREESHA.pdf"
-        ],
+      filename: pdfCert07,
     },
     {
       id: 8,
       name: "TALLURI HARSHITHA",
       team: "Code a-lot",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code a-lot - TALLURI HARSHITHA.pdf"
-        ],
+      filename: pdfCert08,
     },
     {
       id: 9,
       name: "M.Sushma Swaraj",
       team: "Code crafters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code crafters - M.Sushma Swaraj.pdf"
-        ],
+      filename: pdfCert09,
     },
     {
       id: 10,
       name: "P.Bhanu Prakash Reddy",
       team: "Code crafters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code crafters - P.Bhanu Prakash Reddy.pdf"
-        ],
+      filename: pdfCert10,
     },
     {
       id: 11,
       name: "Polisetty Abitha",
       team: "Code crafters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code crafters - Polisetty Abitha.pdf"
-        ],
+      filename: pdfCert11,
     },
     {
       id: 12,
       name: "Rallapalli Thulasi",
       team: "Code crafters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code crafters - Rallapalli Thulasi.pdf"
-        ],
+      filename: pdfCert12,
     },
     {
       id: 13,
       name: "Kaitha Teja Sri",
       team: "Code Crew",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code Crew - Kaitha Teja Sri.pdf"
-        ],
+      filename: pdfCert13,
     },
     {
       id: 14,
       name: "Likhitha Posa",
       team: "Code Crew",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Code Crew - Likhitha Posa.pdf"],
+      filename: pdfCert14,
     },
     {
       id: 15,
       name: "Ramagowni Mokshitha",
       team: "Code Crew",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code Crew - Ramagowni Mokshitha.pdf"
-        ],
+      filename: pdfCert15,
     },
     {
       id: 16,
       name: "Sadaala deepthi",
       team: "Code Crew",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code Crew - Sadaala deepthi.pdf"
-        ],
+      filename: pdfCert16,
     },
     {
       id: 17,
       name: "Thanikonda Sai Manvitha",
       team: "Code Crew",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code Crew - Thanikonda Sai Manvitha.pdf"
-        ],
+      filename: pdfCert17,
     },
     {
       id: 18,
       name: "Alluru Ramya",
       team: "Code Ninjas",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Code Ninjas - Alluru Ramya.pdf"],
+      filename: pdfCert18,
     },
     {
       id: 19,
       name: "Gownipalli Harshitha",
       team: "Code ninjas",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code ninjas - Gownipalli Harshitha.pdf"
-        ],
+      filename: pdfCert19,
     },
     {
       id: 20,
       name: "Perrala Akhila",
       team: "Code ninjas",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code ninjas - Perrala Akhila.pdf"
-        ],
+      filename: pdfCert20,
     },
-
-    // Continue with the rest of the files from Image 1, 2, 3, and 4...
-    // I'm showing a sample of the first 20 certificates, but you would include all files
-
-    // Example from Image 2
     {
       id: 21,
       name: "Ponneri Manasa",
       team: "Code Ninjas",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Code Ninjas - Ponneri Manasa.pdf"
-        ],
+      filename: pdfCert21,
     },
-
-    // Example from Image 3
     {
       id: 22,
-      name: "Balaji Rupasri",
-      team: "Tech Titans",
+      name: "Puthuru Samatha",
+      team: "Code Ninjas",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Tech Titans - Balaji Rupasri.pdf"
-        ],
+      filename: pdfCert22,
     },
-
-    // Example from Image 4
     {
       id: 23,
-      name: "K.Charithy",
-      team: "Web Dev",
+      name: "Kuppireddy Nikhil",
+      team: "Code pirates",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Web Dev - K.Charithy.pdf"],
+      filename: pdfCert23,
     },
-    // Continuing from id: 23...
     {
       id: 24,
-      name: "S L KESAVAANANDA",
-      team: "WEB DEV",
+      name: "N. Lakshmi prasanna",
+      team: "Code pirates",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/WEB DEV - S L KESAVAANANDA.pdf"],
+      filename: pdfCert24,
     },
     {
       id: 25,
-      name: "Tatigunta Chasanth Reddy",
-      team: "Web dev",
+      name: "M.Harsha Vardan Reddy",
+      team: "Code pirates",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web dev - Tatigunta Chasanth Reddy.pdf"
-        ],
+      filename: pdfCert25,
     },
     {
       id: 26,
-      name: "Thathappagari Hemanth",
-      team: "Web Dev",
+      name: "S A Muskaan",
+      team: "Code pirates",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Dev - Thathappagari Hemanth.pdf"
-        ],
+      filename: pdfCert26,
     },
     {
       id: 27,
-      name: "veeraballi karthik kumar reddy",
-      team: "Web dev",
+      name: "S. Bhavana",
+      team: "Code sisters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web dev - veeraballi karthik kumar reddy.pdf"
-        ],
+      filename: pdfCert27,
     },
     {
       id: 28,
-      name: "Kunchala Lahari",
-      team: "Web Masters",
+      name: "Kavya Penumadu",
+      team: "Code sisters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Masters - Kunchala Lahari.pdf"
-        ],
+      filename: pdfCert28,
     },
     {
       id: 29,
-      name: "S HEMACHANDRIKA",
-      team: "Web masters",
+      name: "Putturu senthilkumar vedeshwari",
+      team: "Code sisters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web masters - S HEMACHANDRIKA.pdf"
-        ],
+      filename: pdfCert29,
     },
     {
       id: 30,
-      name: "Budensab Sameera",
-      team: "Web Masters",
+      name: "Sankarapu Navya",
+      team: "Code sisters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Masters - Budensab Sameera.pdf"
-        ],
+      filename: pdfCert30,
     },
     {
       id: 31,
-      name: "Gagguturu Harshiya",
-      team: "Web Masters",
+      name: "Amruthala Surya",
+      team: "Code trio",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Masters - Gagguturu Harshiya.pdf"
-        ],
+      filename: pdfCert31,
     },
     {
       id: 32,
-      name: "Brahmanapalli Mohitha",
-      team: "Web Titans",
+      name: "R.Thimme Gowd",
+      team: "Code trio",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Titans - Brahmanapalli Mohitha.pdf"
-        ],
+      filename: pdfCert32,
     },
     {
       id: 33,
-      name: "Busannagari Savarni",
-      team: "Web Titans",
+      name: "Shaik imam khasim",
+      team: "Code trio",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Titans - Busannagari Savarni.pdf"
-        ],
+      filename: pdfCert33,
     },
     {
       id: 34,
-      name: "Bogineni Srikekha",
-      team: "Web Titans",
+      name: "Katari Tharun Teja",
+      team: "Codsters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Titans - Bogineni Srikekha.pdf"
-        ],
+      filename: pdfCert34,
     },
     {
       id: 35,
-      name: "Chendilkumar kavya",
-      team: "Web Titans",
+      name: "Aasrita Reddy C",
+      team: "Codsters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Titans - Chendilkumar kavya.pdf"
-        ],
+      filename: pdfCert35,
     },
     {
       id: 36,
-      name: "Panabakam Devi",
-      team: "Web Trio",
+      name: "Chalamalla hemanth Chowdary",
+      team: "Codsters",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Web Trio - Panabakam Devi.pdf"],
+      filename: pdfCert36,
     },
     {
       id: 37,
-      name: "Kavali Pravallika",
-      team: "Web Trio",
+      name: "GADDAM HEMANTH",
+      team: "Codsters",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Trio - Kavali Pravallika.pdf"
-        ],
+      filename: pdfCert37,
     },
     {
       id: 38,
-      name: "Peram.Akhila",
-      team: "Web Trio",
+      name: "Kolleti varshini",
+      team: "Codsters",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Web Trio - Peram.Akhila.pdf"],
+      filename: pdfCert38,
     },
     {
       id: 39,
-      name: "Thanusha peneti",
-      team: "Web Trio",
+      name: "G.Anurag Harshith",
+      team: "Dare Devils",
       project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Web Trio - Thanusha peneti.pdf"],
+      filename: pdfCert39,
     },
     {
       id: 40,
-      name: "Chinnam Maheswari",
-      team: "Web Warriors",
+      name: "Tadakara Dinesh",
+      team: "Dare Devils",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Warriors - Chinnam Maheswari.pdf"
-        ],
+      filename: pdfCert40,
     },
     {
       id: 41,
-      name: "CHITTEPU GNANITHA REDDY",
-      team: "Web Warriors",
+      name: "M K Tharun Sai",
+      team: "DareDevils",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Warriors - CHITTEPU GNANITHA REDDY.pdf"
-        ],
+      filename: pdfCert41,
     },
     {
       id: 42,
-      name: "CHITTEPU SWATHI",
-      team: "Web Warriors",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Warriors - CHITTEPU SWATHI.pdf"
-        ],
-    },
-    {
-      id: 43,
-      name: "Gajjala Yaminipriya",
-      team: "Web Warriors",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Warriors - Gajjala Yaminipriya.pdf"
-        ],
-    },
-    {
-      id: 44,
-      name: "Gundluru Chandrika Sravanthi",
-      team: "Web Warriors",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Web Warriors - Gundluru Chandrika Sravanthi.pdf"
-        ],
-    },
-    {
-      id: 45,
-      name: "Dama Charan",
-      team: "XTron",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/XTron - Dama Charan.pdf"],
-    },
-    {
-      id: 46,
-      name: "G NANDHEESWEAR REDDY",
-      team: "XTron",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/XTron - G NANDHEESWEAR REDDY.pdf"
-        ],
-    },
-    {
-      id: 47,
-      name: "G REDDY CHARAN",
-      team: "XTron",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/XTron - G REDDY CHARAN.pdf"],
-    },
-    {
-      id: 48,
-      name: "K.Madhukar Reddy",
-      team: "XTron",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/XTron - K.Madhukar Reddy.pdf"],
-    },
-    {
-      id: 49,
-      name: "P.L.Deepak",
-      team: "XTron",
-      project: "Web Development",
-      filename: pdfFiles["../assets/web-certifications/XTron - P.L.Deepak.pdf"],
-    },
-    {
-      id: 50,
-      name: "DONDETI MONIKA",
-      team: "Yuva Teja",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Yuva Teja - DONDETI MONIKA.pdf"],
-    },
-    {
-      id: 51,
-      name: "G POOJITHA",
-      team: "Yuva Teja",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Yuva Teja - G POOJITHA.pdf"],
-    },
-    {
-      id: 52,
-      name: "Shanthi Geepalem",
-      team: "Yuva Teja",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Yuva Teja - Shanthi Geepalem.pdf"
-        ],
-    },
-    {
-      id: 53,
-      name: "P.yuvateja",
-      team: "Yuvateja",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Yuvateja - P.yuvateja.pdf"],
-    },
-    {
-      id: 54,
-      name: "Shaik Imran",
-      team: "TWEAK",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/TWEAK - Shaik Imran.pdf"],
-    },
-    {
-      id: 55,
-      name: "SRIPURAM GUNASEKHAR",
-      team: "TWEAK",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/TWEAK - SRIPURAM GUNASEKHAR.pdf"
-        ],
-    },
-    {
-      id: 56,
-      name: "Kavadi Tejasri",
-      team: "Visioneers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Visioneers - Kavadi Tejasri.pdf"
-        ],
-    },
-    {
-      id: 57,
-      name: "Kurugodu Sushma",
-      team: "Visioneers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Visioneers - Kurugodu Sushma.pdf"
-        ],
-    },
-    {
-      id: 58,
-      name: "Kalavagunta Monisha",
-      team: "Visioneers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Visioneers - Kalavagunta Monisha.pdf"
-        ],
-    },
-    {
-      id: 59,
-      name: "Krishnan Mounika",
-      team: "Visioneers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Visioneers - Krishnan Mounika.pdf"
-        ],
-    },
-    {
-      id: 60,
-      name: "Nandi Mangalam Geerani",
-      team: "Visioneers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Visioneers - Nandi Mangalam Geerani.pdf"
-        ],
-    },
-    {
-      id: 61,
-      name: "Tejaswi Pakala",
-      team: "THE QUAD 4",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/THE QUAD 4 - Tejaswi Pakala.pdf"
-        ],
-    },
-    {
-      id: 62,
-      name: "Adeppagari Pallavi",
-      team: "Teen Titans",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Teen Titans - Adeppagari Pallavi.pdf"
-        ],
-    },
-    {
-      id: 63,
-      name: "Cheemala Supriya",
-      team: "Teen Titans",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Teen Titans - Cheemala Supriya.pdf"
-        ],
-    },
-    {
-      id: 64,
-      name: "Siri Ankitha",
-      team: "Teen Titans",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Teen Titans - Siri Ankitha.pdf"],
-    },
-    {
-      id: 65,
-      name: "SUJITHA BHARATHALA",
-      team: "Teen Titans",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Teen Titans - SUJITHA BHARATHALA.pdf"
-        ],
-    },
-    {
-      id: 66,
-      name: "Chennareddy Pranavi",
-      team: "Teen Titans",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Teen Titans - Chennareddy Pranavi.pdf"
-        ],
-    },
-    {
-      id: 67,
-      name: "Motupalli Chandana",
-      team: "TechSquad",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/TechSquad - Motupalli Chandana.pdf"
-        ],
-    },
-    {
-      id: 68,
-      name: "Peddakalgan Shalini",
-      team: "TechSquad",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/TechSquad - Peddakalgan Shalini.pdf"
-        ],
-    },
-    {
-      id: 69,
-      name: "Ramagiri Neha",
-      team: "TechSquad",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/TechSquad - Ramagiri Neha.pdf"],
-    },
-    {
-      id: 70,
-      name: "Pujitha Lingala",
-      team: "Tech web",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Tech web - Pujitha Lingala.pdf"],
-    },
-    {
-      id: 71,
-      name: "CHITTEM KAMESWARI APARNA",
-      team: "Tech web",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Tech web - CHITTEM KAMESWARI APARNA.pdf"
-        ],
-    },
-    {
-      id: 72,
-      name: "Enapati keerthi",
-      team: "Tech web",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Tech web - Enapati keerthi.pdf"],
-    },
-    {
-      id: 73,
-      name: "Balaji Rupasri",
-      team: "Tech Titans",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Tech Titans - Balaji Rupasri.pdf"
-        ],
-    },
-    {
-      id: 74,
-      name: "BALASA CHENCHU AALAYA",
-      team: "TECH TITANS",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/TECH TITANS - BALASA CHENCHU AALAYA.pdf"
-        ],
-    },
-    {
-      id: 75,
-      name: "ETLAM CHASVITHA REDDY",
-      team: "TECH TITANS",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/TECH TITANS - ETLAM CHASVITHA REDDY.pdf"
-        ],
-    },
-    {
-      id: 76,
-      name: "JEELA EESHA",
-      team: "Tech Titans",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Tech Titans - JEELA EESHA.pdf"],
-    },
-    {
-      id: 77,
-      name: "KANUPURU BRUNDA",
-      team: "TECH TITANS",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/TECH TITANS - KANUPURU BRUNDA.pdf"
-        ],
-    },
-    {
-      id: 78,
-      name: "Pandi vamsi",
-      team: "Tech Titans",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Tech Titans - Pandi vamsi.pdf"],
-    },
-    {
-      id: 79,
-      name: "SHAIK ARSHIYA TAJ",
-      team: "Tech titans",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Tech titans - SHAIK ARSHIYA TAJ.pdf"
-        ],
-    },
-    {
-      id: 80,
-      name: "VANDAVASI DILEEQ",
-      team: "TECH TITANS",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/TECH TITANS - VANDAVASI DILEEQ.pdf"
-        ],
-    },
-    {
-      id: 81,
-      name: "Earomchetty Harshitha",
-      team: "Shanthi",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Shanthi - Earomchetty Harshitha.pdf"
-        ],
-    },
-    {
-      id: 82,
-      name: "BANDA VIJAY KUMAR",
-      team: "Soft tech",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Soft tech - BANDA VIJAY KUMAR.pdf"
-        ],
-    },
-    {
-      id: 83,
-      name: "Jaswanth Kumar Mamilla",
-      team: "Soft tech",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Soft tech - Jaswanth Kumar Mamilla.pdf"
-        ],
-    },
-    {
-      id: 84,
-      name: "Kalakada Poojitha",
-      team: "Soft tech",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Soft tech - Kalakada Poojitha.pdf"
-        ],
-    },
-    {
-      id: 85,
-      name: "Y Durga Venkata Deepak",
-      team: "Soft tech",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Soft tech - Y Durga Venkata Deepak.pdf"
-        ],
-    },
-    {
-      id: 86,
-      name: "Yagateela Suneel",
-      team: "Soft Tech",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Soft Tech - Yagateela Suneel.pdf"
-        ],
-    },
-    {
-      id: 87,
-      name: "MOPURI YASWANTH",
-      team: "Soft Teech",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Soft Teech - MOPURI YASWANTH.pdf"
-        ],
-    },
-    {
-      id: 88,
-      name: "Chillakuru pardha saradhi",
-      team: "Strange Thinkers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Strange Thinkers - Chillakuru pardha saradhi.pdf"
-        ],
-    },
-    {
-      id: 89,
-      name: "POTLA CHAITANYA",
-      team: "Strange Thinkers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Strange Thinkers - POTLA CHAITANYA.pdf"
-        ],
-    },
-    {
-      id: 90,
-      name: "Sayed Yasin",
-      team: "Strange Thinkers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Strange Thinkers - Sayed Yasin.pdf"
-        ],
-    },
-    {
-      id: 91,
-      name: "Shaik Aisha",
-      team: "Strange Thinkers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Strange Thinkers - Shaik Aisha.pdf"
-        ],
-    },
-    {
-      id: 92,
-      name: "YOGISH PASUPULETI",
-      team: "Stranger Thinkers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Stranger Thinkers - YOGISH PASUPULETI.pdf"
-        ],
-    },
-    {
-      id: 93,
-      name: "Bukkasamudram Surya Vardhan Reddy",
-      team: "Team anonymous",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Team anonymous - Bukkasamudram Surya Vardhan Reddy.pdf"
-        ],
-    },
-    {
-      id: 94,
-      name: "Golla Vinod Kumar",
-      team: "Team anonymous",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Team anonymous - Golla Vinod Kumar.pdf"
-        ],
-    },
-    {
-      id: 95,
-      name: "Shaik.AsifAzeem",
-      team: "Team Asphalt",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Team Asphalt - Shaik.AsifAzeem.pdf"
-        ],
-    },
-    {
-      id: 96,
-      name: "Sk.shabber",
-      team: "Team asphalt",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Team asphalt - Sk.shabber.pdf"],
-    },
-    {
-      id: 97,
-      name: "SG.Vardhan Vikranth Reddy",
-      team: "Team Asphalt",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Team Asphalt - SG.Vardhan Vikranth Reddy.pdf"
-        ],
-    },
-    {
-      id: 98,
-      name: "Shaik imran Hashimi",
-      team: "Team Asphalt",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Team Asphalt - Shaik imran Hashimi.pdf"
-        ],
-    },
-    {
-      id: 99,
-      name: "Purru Tulasi",
-      team: "Phoenix",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Phoenix - Purru Tulasi.pdf"],
-    },
-    {
-      id: 100,
-      name: "MALLIBOYINA POOJA SRI",
-      team: "PANCHKAVACH",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/PANCHKAVACH - MALLIBOYINA POOJA SRI.pdf"
-        ],
-    },
-    {
-      id: 101,
-      name: "MARPURI LIKITHA",
-      team: "Panchkavach",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Panchkavach - MARPURI LIKITHA.pdf"
-        ],
-    },
-    {
-      id: 102,
-      name: "Mekala Pavithra",
-      team: "PANCHKAVACH",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/PANCHKAVACH - Mekala Pavithra.pdf"
-        ],
-    },
-    {
-      id: 103,
-      name: "Mukkamalla Venkata Bhavana",
-      team: "PANCHKAVACH",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/PANCHKAVACH - Mukkamalla Venkata Bhavana.pdf"
-        ],
-    },
-    {
-      id: 104,
-      name: "Nimmala Sravanthi",
-      team: "PANCHKAVACH",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/PANCHKAVACH - Nimmala Sravanthi.pdf"
-        ],
-    },
-    {
-      id: 105,
-      name: "Vaka Pushpanjali",
-      team: "Novalocks",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Novalocks - Vaka Pushpanjali.pdf"
-        ],
-    },
-    {
-      id: 106,
-      name: "Paidipula charan",
-      team: "Novalocks",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Novalocks - Paidipula charan.pdf"
-        ],
-    },
-    {
-      id: 107,
-      name: "M.Kavya",
-      team: "Nexus",
-      project: "Web Development",
-      filename: pdfFiles["../assets/web-certifications/Nexus - M.Kavya.pdf"],
-    },
-    {
-      id: 108,
-      name: "M.Penchala Bhavana",
-      team: "Nexus",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Nexus - M.Penchala Bhavana.pdf"],
-    },
-    {
-      id: 109,
-      name: "D Vinay",
-      team: "Judgement Day",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Judgement Day - D Vinay.pdf"],
-    },
-    {
-      id: 110,
-      name: "Konduru Pavan Sai Varma",
-      team: "Judgement Day",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Judgement Day - Konduru Pavan Sai Varma.pdf"
-        ],
-    },
-    {
-      id: 111,
-      name: "VEMPALLI NAVEEN",
-      team: "Judgement Day",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Judgement Day - VEMPALLI NAVEEN.pdf"
-        ],
-    },
-    {
-      id: 112,
-      name: "Vemula Bala Sai Kumar",
-      team: "Judgement Day",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Judgement Day - Vemula Bala Sai Kumar.pdf"
-        ],
-    },
-    {
-      id: 113,
-      name: "Edagotti Kishore",
-      team: "HUGS FOR BUGS",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/HUGS FOR BUGS - Edagotti Kishore.pdf"
-        ],
-    },
-    {
-      id: 114,
-      name: "G R DIVYA SREE",
-      team: "HUGS FOR BUGS",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/HUGS FOR BUGS - G R DIVYA SREE.pdf"
-        ],
-    },
-    {
-      id: 115,
-      name: "GADAMANIPALI RAJA SEKHAR",
-      team: "HUGS FOR BUGS",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/HUGS FOR BUGS - GADAMANIPALI RAJA SEKHAR.pdf"
-        ],
-    },
-    {
-      id: 116,
-      name: "KARUPOTHULA SHASHI KUMAR",
-      team: "HUGS FOR BUGS",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/HUGS FOR BUGS - KARUPOTHULA SHASHI KUMAR.pdf"
-        ],
-    },
-    {
-      id: 117,
-      name: "Kothuru Meghana",
-      team: "HUGS FOR BUGS",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/HUGS FOR BUGS - Kothuru Meghana.pdf"
-        ],
-    },
-    {
-      id: 118,
-      name: "K Mahamood Ajad",
-      team: "Hackathon Makers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Hackathon Makers - K Mahamood Ajad.pdf"
-        ],
-    },
-    {
-      id: 119,
-      name: "P.Jayanth kumar",
-      team: "Hackathon Makers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Hackathon Makers - P.Jayanth kumar.pdf"
-        ],
-    },
-    {
-      id: 120,
-      name: "S USHA SAI LIKITHA REDDY",
-      team: "Hackathon Makers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Hackathon Makers - S USHA SAI LIKITHA REDDY.pdf"
-        ],
-    },
-    {
-      id: 121,
-      name: "Samanthu Harini",
-      team: "Hackathon Makers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Hackathon Makers - Samanthu Harini.pdf"
-        ],
-    },
-    {
-      id: 122,
-      name: "Sure Bindhu",
-      team: "Hackathon Makers",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Hackathon Makers - Sure Bindhu.pdf"
-        ],
-    },
-    {
-      id: 123,
-      name: "Gayathri Appareddy",
-      team: "Hackatholics",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Hackatholics - Gayathri Appareddy.pdf"
-        ],
-    },
-    {
-      id: 124,
-      name: "Akepati Devasena",
-      team: "Hackatholics",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Hackatholics - Akepati Devasena.pdf"
-        ],
-    },
-    {
-      id: 125,
-      name: "Syed aisha Sidhiqua",
-      team: "Hackatholics",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Hackatholics - Syed aisha Sidhiqua.pdf"
-        ],
-    },
-    {
-      id: 126,
-      name: "Pillapalem Tejaswi",
-      team: "Hack&Learn@05",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Hack&Learn@05 - Pillapalem Tejaswi.pdf"
-        ],
-    },
-    {
-      id: 127,
-      name: "K Sai",
-      team: "Front End Force",
-      project: "Web Development",
-      filename:
-        pdfFiles["../assets/web-certifications/Front End Force - K Sai.pdf"],
-    },
-    {
-      id: 128,
-      name: "K P Mohitha",
-      team: "Front-End Force",
-      project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/Front-End Force - K P Mohitha.pdf"
-        ],
-    },
-    {
-      id: 129,
       name: "P.Amrutha",
       team: "DIGITAL DYNAMITES",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/DIGITAL DYNAMITES - P.Amrutha.pdf"
-        ],
+      filename: pdfCert42,
     },
     {
-      id: 130,
-      name: "Y.V.Nandhi Vardhan Reddy",
+      id: 43,
+      name: "Y.Y.Nandini Vardhan Reddy",
       team: "DIGITAL DYNAMITES",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/DIGITAL DYNAMITES - Y.V.Nandhi Vardhan Reddy.pdf"
-        ],
+      filename: pdfCert43,
     },
     {
-      id: 131,
+      id: 44,
       name: "YALLANURU REVANTH KUMAR",
       team: "DIGITAL DYNAMITES",
       project: "Web Development",
-      filename:
-        pdfFiles[
-          "../assets/web-certifications/DIGITAL DYNAMITES - YALLANURU REVANTH KUMAR.pdf"
-        ],
+      filename: pdfCert44,
+    },
+    {
+      id: 45,
+      name: "Shaik Afrin",
+      team: "DIGITAL DYNAMITES",
+      project: "Web Development",
+      filename: pdfCert45,
+    },
+    {
+      id: 46,
+      name: "K Sai",
+      team: "Front End Force",
+      project: "Web Development",
+      filename: pdfCert46,
+    },
+    {
+      id: 47,
+      name: "K P Mohitha",
+      team: "Front-End Force",
+      project: "Web Development",
+      filename: pdfCert47,
+    },
+    {
+      id: 48,
+      name: "Pillapalem Tejaswi",
+      team: "Hack&Learn@os",
+      project: "Web Development",
+      filename: pdfCert48,
+    },
+    {
+      id: 49,
+      name: "Gayathri Appalredd",
+      team: "Hackaholics",
+      project: "Web Development",
+      filename: pdfCert49,
+    },
+    {
+      id: 50,
+      name: "Akepati Devasena",
+      team: "Hackaholics",
+      project: "Web Development",
+      filename: pdfCert50,
+    },
+    {
+      id: 51,
+      name: "Syed aisha Sidhiqua",
+      team: "Hackaholics",
+      project: "Web Development",
+      filename: pdfCert51,
+    },
+    {
+      id: 52,
+      name: "K Mahamood Ajad",
+      team: "Hackathon Makers",
+      project: "Web Development",
+      filename: pdfCert52,
+    },
+    {
+      id: 53,
+      name: "P.Jayanth kumar",
+      team: "Hackathon Makers",
+      project: "Web Development",
+      filename: pdfCert53,
+    },
+    {
+      id: 54,
+      name: "S USHA SAI IKITHA REDDY",
+      team: "Hackathon Makers",
+      project: "Web Development",
+      filename: pdfCert54,
+    },
+    {
+      id: 55,
+      name: "Samanthu Harini",
+      team: "Hackathon Makers",
+      project: "Web Development",
+      filename: pdfCert55,
+    },
+    {
+      id: 56,
+      name: "Sure Bindhu",
+      team: "Hackathon Makers",
+      project: "Web Development",
+      filename: pdfCert56,
+    },
+    {
+      id: 57,
+      name: "Edagotti Kishore",
+      team: "HUGS FOR BUGS",
+      project: "Web Development",
+      filename: pdfCert57,
+    },
+    {
+      id: 58,
+      name: "G R DIVYA SREE",
+      team: "HUGS FOR BUGS",
+      project: "Web Development",
+      filename: pdfCert58,
+    },
+    {
+      id: 59,
+      name: "GADAMANIPALLI RAJA SEKHAR",
+      team: "HUGS FOR BUGS",
+      project: "Web Development",
+      filename: pdfCert59,
+    },
+    {
+      id: 60,
+      name: "KARUPOTHULA SHASHI KUMAR",
+      team: "HUGS FOR BUGS",
+      project: "Web Development",
+      filename: pdfCert60,
+    },
+    {
+      id: 61,
+      name: "Kothuru Meghana",
+      team: "HUGS FOR BUGS",
+      project: "Web Development",
+      filename: pdfCert61,
+    },
+    {
+      id: 62,
+      name: "D Vinay",
+      team: "Judgement Day",
+      project: "Web Development",
+      filename: pdfCert62,
+    },
+    {
+      id: 63,
+      name: "Konduru Pavan Sai Varma",
+      team: "Judgement Day",
+      project: "Web Development",
+      filename: pdfCert63,
+    },
+    {
+      id: 64,
+      name: "VEMPALLI NAVEEN",
+      team: "Judgement Day",
+      project: "Web Development",
+      filename: pdfCert64,
+    },
+    {
+      id: 65,
+      name: "Vemula Bala Sai Kumar",
+      team: "Judgement Day",
+      project: "Web Development",
+      filename: pdfCert65,
+    },
+    {
+      id: 66,
+      name: "M.Kavya",
+      team: "Nexus",
+      project: "Web Development",
+      filename: pdfCert66,
+    },
+    {
+      id: 67,
+      name: "M.Penchala Bhavana",
+      team: "Nexus",
+      project: "Web Development",
+      filename: pdfCert67,
+    },
+    {
+      id: 68,
+      name: "Akula Pushapanjali",
+      team: "Novalocks",
+      project: "Web Development",
+      filename: pdfCert68,
+    },
+    {
+      id: 69,
+      name: "Paidipula charan",
+      team: "Novalocks",
+      project: "Web Development",
+      filename: pdfCert69,
+    },
+    {
+      id: 70,
+      name: "MALLIBOYINA POOJA SRI",
+      team: "PANCHKAVACH",
+      project: "Web Development",
+      filename: pdfCert70,
+    },
+    {
+      id: 71,
+      name: "MARPURI LIKITHA",
+      team: "Panchkavach",
+      project: "Web Development",
+      filename: pdfCert71,
+    },
+    {
+      id: 72,
+      name: "Mekala Pavithra",
+      team: "PANCHKAVACH",
+      project: "Web Development",
+      filename: pdfCert72,
+    },
+    {
+      id: 73,
+      name: "Mukkamalla Venkata Bhavana",
+      team: "PANCHKAVACH",
+      project: "Web Development",
+      filename: pdfCert73,
+    },
+    {
+      id: 74,
+      name: "Nimmala Sravanthi",
+      team: "PANCHKAVACH",
+      project: "Web Development",
+      filename: pdfCert74,
+    },
+    {
+      id: 75,
+      name: "Purru Tulasi",
+      team: "Phoenix",
+      project: "Web Development",
+      filename: pdfCert75,
+    },
+    {
+      id: 76,
+      name: "Earomchetty Harshitha",
+      team: "Shanthi",
+      project: "Web Development",
+      filename: pdfCert76,
+    },
+    {
+      id: 77,
+      name: "BANDA VIJAY KUMAR",
+      team: "Soft tech",
+      project: "Web Development",
+      filename: pdfCert77,
+    },
+    {
+      id: 78,
+      name: "Jaswanth Kumar Mamilla",
+      team: "Soft tech",
+      project: "Web Development",
+      filename: pdfCert78,
+    },
+    {
+      id: 79,
+      name: "Kalakada Poojitha",
+      team: "Soft tech",
+      project: "Web Development",
+      filename: pdfCert79,
+    },
+    {
+      id: 80,
+      name: "Y Durga Venkata Deepak",
+      team: "Soft tech",
+      project: "Web Development",
+      filename: pdfCert80,
+    },
+    {
+      id: 81,
+      name: "Yagateela Suneel",
+      team: "Soft Tech",
+      project: "Web Development",
+      filename: pdfCert81,
+    },
+    {
+      id: 82,
+      name: "MOPURI YASWANTH",
+      team: "Soft Teech",
+      project: "Web Development",
+      filename: pdfCert82,
+    },
+    {
+      id: 83,
+      name: "Chillakuru pardha saradhi",
+      team: "Strange Thinkers",
+      project: "Web Development",
+      filename: pdfCert83,
+    },
+    {
+      id: 84,
+      name: "POTLA CHAITANYA",
+      team: "Strange Thinkers",
+      project: "Web Development",
+      filename: pdfCert84,
+    },
+    {
+      id: 85,
+      name: "Sayed Yasin",
+      team: "Strange Thinkers",
+      project: "Web Development",
+      filename: pdfCert85,
+    },
+    {
+      id: 86,
+      name: "Shaik Aisha",
+      team: "Strange Thinkers",
+      project: "Web Development",
+      filename: pdfCert86,
+    },
+    {
+      id: 87,
+      name: "YOGISH PASUPULETI",
+      team: "Stranger Thinkers",
+      project: "Web Development",
+      filename: pdfCert87,
+    },
+    {
+      id: 88,
+      name: "Bukkasamudram Surya Vardhan Reddy",
+      team: "Team anonymous",
+      project: "Web Development",
+      filename: pdfCert88,
+    },
+    {
+      id: 89,
+      name: "Golla Vinod Kumar",
+      team: "Team anonymous",
+      project: "Web Development",
+      filename: pdfCert89,
+    },
+    {
+      id: 90,
+      name: "Shaik.AsifAzeem",
+      team: "Team Asphalt",
+      project: "Web Development",
+      filename: pdfCert90,
+    },
+    {
+      id: 91,
+      name: "Sk.shabber",
+      team: "Team asphalt",
+      project: "Web Development",
+      filename: pdfCert91,
+    },
+    {
+      id: 92,
+      name: "SG.Vardhan Vikranth Reddy",
+      team: "Team Asphalt",
+      project: "Web Development",
+      filename: pdfCert92,
+    },
+    {
+      id: 93,
+      name: "Shaik imran Hashimi",
+      team: "Team Asphalt",
+      project: "Web Development",
+      filename: pdfCert93,
+    },
+    {
+      id: 94,
+      name: "Balaji Rupasri",
+      team: "Tech Titans",
+      project: "Web Development",
+      filename: pdfCert94,
+    },
+    {
+      id: 95,
+      name: "BALASA CHENCHU AALAYA",
+      team: "TECH TITANS",
+      project: "Web Development",
+      filename: pdfCert95,
+    },
+    {
+      id: 96,
+      name: "ETLAM CHASVITHA REDDY",
+      team: "TECH TITANS",
+      project: "Web Development",
+      filename: pdfCert96,
+    },
+    {
+      id: 97,
+      name: "JEELA EESHA",
+      team: "Tech Titans",
+      project: "Web Development",
+      filename: pdfCert97,
+    },
+    {
+      id: 98,
+      name: "KANUPURU BRUNDA",
+      team: "TECH TITANS",
+      project: "Web Development",
+      filename: pdfCert98,
+    },
+    {
+      id: 99,
+      name: "Pandi vamsi",
+      team: "Tech Titans",
+      project: "Web Development",
+      filename: pdfCert99,
+    },
+    {
+      id: 100,
+      name: "SHAIK ARSHIYA TAJ",
+      team: "Tech titans",
+      project: "Web Development",
+      filename: pdfCert100,
+    },
+    {
+      id: 101,
+      name: "VANDAVASI DILEEQ",
+      team: "TECH TITANS",
+      project: "Web Development",
+      filename: pdfCert101,
+    },
+    {
+      id: 102,
+      name: "Pujitha Lingala",
+      team: "Tech web",
+      project: "Web Development",
+      filename: pdfCert102,
+    },
+    {
+      id: 103,
+      name: "CHITTEM KAMESWARI APARNA",
+      team: "Tech web",
+      project: "Web Development",
+      filename: pdfCert103,
+    },
+    {
+      id: 104,
+      name: "Enapati keerthi",
+      team: "Tech web",
+      project: "Web Development",
+      filename: pdfCert104,
+    },
+    {
+      id: 105,
+      name: "Motupalli Chandana",
+      team: "TechSquad",
+      project: "Web Development",
+      filename: pdfCert105,
+    },
+    {
+      id: 106,
+      name: "Peddakalgan Shalini",
+      team: "TechSquad",
+      project: "Web Development",
+      filename: pdfCert106,
+    },
+    {
+      id: 107,
+      name: "Ramagiri Neha",
+      team: "TechSquad",
+      project: "Web Development",
+      filename: pdfCert107,
+    },
+    {
+      id: 108,
+      name: "Adeppagari Pallavi",
+      team: "Teen Titans",
+      project: "Web Development",
+      filename: pdfCert108,
+    },
+    {
+      id: 109,
+      name: "Cheemala Supriya",
+      team: "Teen Titans",
+      project: "Web Development",
+      filename: pdfCert109,
+    },
+    {
+      id: 110,
+      name: "Siri Ankitha",
+      team: "Teen Titans",
+      project: "Web Development",
+      filename: pdfCert110,
+    },
+    {
+      id: 111,
+      name: "SUJITHA BHARATHALA",
+      team: "Teen Titans",
+      project: "Web Development",
+      filename: pdfCert111,
+    },
+    {
+      id: 112,
+      name: "Chennareddy Swetha",
+      team: "Teen Titans",
+      project: "Web Development",
+      filename: pdfCert112,
+    },
+    {
+      id: 113,
+      name: "Tejasvi Pakala",
+      team: "THE QUAD 4",
+      project: "Web Development",
+      filename: pdfCert113,
+    },
+    {
+      id: 114,
+      name: "Shaik Imran",
+      team: "TWEAK",
+      project: "Web Development",
+      filename: pdfCert114,
+    },
+    {
+      id: 115,
+      name: "SRIPURAM GUNASEKHAR",
+      team: "TWEAK",
+      project: "Web Development",
+      filename: pdfCert115,
+    },
+    {
+      id: 116,
+      name: "Kavadi Tejasri",
+      team: "Visioneers",
+      project: "Web Development",
+      filename: pdfCert116,
+    },
+    {
+      id: 117,
+      name: "Kurugodu Sushma",
+      team: "Visioneers",
+      project: "Web Development",
+      filename: pdfCert117,
+    },
+    {
+      id: 118,
+      name: "Kalavagunta Monisha",
+      team: "Visioneers",
+      project: "Web Development",
+      filename: pdfCert118,
+    },
+    {
+      id: 119,
+      name: "Krishnan Mounika",
+      team: "Visioneers",
+      project: "Web Development",
+      filename: pdfCert119,
+    },
+    {
+      id: 120,
+      name: "Nandi Mangalam Geerani",
+      team: "Visioneers",
+      project: "Web Development",
+      filename: pdfCert120,
+    },
+    {
+      id: 121,
+      name: "K.Charith",
+      team: "Web Dev",
+      project: "Web Development",
+      filename: pdfCert121,
+    },
+    {
+      id: 122,
+      name: "S L KESAVAANANDA",
+      team: "WEB DEV",
+      project: "Web Development",
+      filename: pdfCert122,
+    },
+    {
+      id: 123,
+      name: "Tatigunta Chasanth Reddy",
+      team: "Web Dev",
+      project: "Web Development",
+      filename: pdfCert123,
+    },
+    {
+      id: 124,
+      name: "Thathappagari Hemanth",
+      team: "Web Dev",
+      project: "Web Development",
+      filename: pdfCert124,
+    },
+    {
+      id: 125,
+      name: "veeraballi karthik kumar reddy",
+      team: "Web dev",
+      project: "Web Development",
+      filename: pdfCert125,
+    },
+    {
+      id: 126,
+      name: "Kunchala Lahari",
+      team: "Web Masters",
+      project: "Web Development",
+      filename: pdfCert126,
+    },
+    {
+      id: 127,
+      name: "S HEMACHANDRIKA",
+      team: "Web masters",
+      project: "Web Development",
+      filename: pdfCert127,
+    },
+    {
+      id: 128,
+      name: "Budensab Sameera",
+      team: "Web Masters",
+      project: "Web Development",
+      filename: pdfCert128,
+    },
+    {
+      id: 129,
+      name: "Gagguturu Harshiya",
+      team: "Web Masters",
+      project: "Web Development",
+      filename: pdfCert129,
+    },
+    {
+      id: 130,
+      name: "Brahmanapalli Mohitha",
+      team: "Web Titans",
+      project: "Web Development",
+      filename: pdfCert130,
+    },
+    {
+      id: 131,
+      name: "Busannagari Savarni",
+      team: "Web Titans",
+      project: "Web Development",
+      filename: pdfCert131,
+    },
+    {
+      id: 132,
+      name: "Bogineni Srikekha",
+      team: "Web Titans",
+      project: "Web Development",
+      filename: pdfCert132,
+    },
+    {
+      id: 133,
+      name: "Chendilkumar kavya",
+      team: "Web Titans",
+      project: "Web Development",
+      filename: pdfCert133,
+    },
+    {
+      id: 134,
+      name: "Panabakam Devi",
+      team: "Web Trio",
+      project: "Web Development",
+      filename: pdfCert134,
+    },
+    {
+      id: 135,
+      name: "Kavali Pravallika",
+      team: "Web Trio",
+      project: "Web Development",
+      filename: pdfCert135,
+    },
+    {
+      id: 136,
+      name: "Peram.Akhila",
+      team: "Web Trio",
+      project: "Web Development",
+      filename: pdfCert136,
+    },
+    {
+      id: 137,
+      name: "Thanusha peneti",
+      team: "Web Trio",
+      project: "Web Development",
+      filename: pdfCert137,
+    },
+    {
+      id: 138,
+      name: "Chinnam Maheswari",
+      team: "Web Warriors",
+      project: "Web Development",
+      filename: pdfCert138,
+    },
+    {
+      id: 139,
+      name: "CHITTEPU GNANITHA REDDY",
+      team: "Web Warriors",
+      project: "Web Development",
+      filename: pdfCert139,
+    },
+    {
+      id: 140,
+      name: "CHITTETI SWATHI",
+      team: "Web Warriors",
+      project: "Web Development",
+      filename: pdfCert140,
+    },
+    {
+      id: 141,
+      name: "Gajjala Vaminipriya",
+      team: "Web Warriors",
+      project: "Web Development",
+      filename: pdfCert141,
+    },
+    {
+      id: 142,
+      name: "Gundluru Chandrika Sravanthi",
+      team: "Web Warriors",
+      project: "Web Development",
+      filename: pdfCert142,
+    },
+    {
+      id: 143,
+      name: "Dama Charan",
+      team: "XTron",
+      project: "Web Development",
+      filename: pdfCert143,
+    },
+    {
+      id: 144,
+      name: "G NANDHEESWAR REDDY",
+      team: "XTron",
+      project: "Web Development",
+      filename: pdfCert144,
+    },
+    {
+      id: 145,
+      name: "G REDDY CHARAN",
+      team: "XTron",
+      project: "Web Development",
+      filename: pdfCert145,
+    },
+    {
+      id: 146,
+      name: "K.Madhukar Reddy",
+      team: "XTron",
+      project: "Web Development",
+      filename: pdfCert146,
+    },
+    {
+      id: 147,
+      name: "P.L.Deepak",
+      team: "XTron",
+      project: "Web Development",
+      filename: pdfCert147,
+    },
+    {
+      id: 148,
+      name: "DONDETI MONIKA",
+      team: "Yuva Teja",
+      project: "Web Development",
+      filename: pdfCert148,
+    },
+    {
+      id: 149,
+      name: "G POOJITHA",
+      team: "Yuva Teja",
+      project: "Web Development",
+      filename: pdfCert149,
+    },
+    {
+      id: 150,
+      name: "Shanthi Geepalem",
+      team: "Yuva Teja",
+      project: "Web Development",
+      filename: pdfCert150,
+    },
+    {
+      id: 151,
+      name: "P.yuvateja",
+      team: "Yuvateja",
+      project: "Web Development",
+      filename: pdfCert151,
     },
   ];
 
