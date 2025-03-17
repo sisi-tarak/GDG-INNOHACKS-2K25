@@ -196,6 +196,26 @@ import pdfCert192 from "../../assets/uiux-certifications/Tech masters - K. Megan
 import pdfCert193 from "../../assets/uiux-certifications/Tech masters - Pindi Vaishnavi.pdf";
 import pdfCert194 from "../../assets/uiux-certifications/The coders  - Polepalli Haritha.pdf";
 
+import pdfCert195 from "../../assets/powerbi-certifications/Bi Builders  - G.Hema Sree.pdf";
+import pdfCert196 from "../../assets/powerbi-certifications/Bi Builders  - GUMMIDI SWETHA .pdf";
+import pdfCert197 from "../../assets/powerbi-certifications/BI Builders - Bijivemula Pavani.pdf";
+import pdfCert198 from "../../assets/powerbi-certifications/Bi builders - Gilaka Balaji.pdf";
+import pdfCert199 from "../../assets/powerbi-certifications/Code crunchers  - Devarakonda Prasuna .pdf";
+import pdfCert200 from "../../assets/powerbi-certifications/Code crunchers - Appani Rajya Lakshmi .pdf";
+import pdfCert201 from "../../assets/powerbi-certifications/Code crunchers - K.Reddylokesh.pdf";
+import pdfCert202 from "../../assets/powerbi-certifications/Code Crunches - Saranya Ettikuppam .pdf";
+import pdfCert203 from "../../assets/powerbi-certifications/Hackstreet Boys  - KUMMITHA HAREESH.pdf";
+import pdfCert204 from "../../assets/powerbi-certifications/Hackstreet Boys - GUTHA RAMAKRISHNA .pdf";
+import pdfCert205 from "../../assets/powerbi-certifications/Rebort rebels - Karanam Sreenivasulu .pdf";
+import pdfCert206 from "../../assets/powerbi-certifications/Rebot rebels - S Guru Sainath Reddy.pdf";
+import pdfCert207 from "../../assets/powerbi-certifications/Robot rebels - Nandyala Naveen Kumar Reddy .pdf";
+import pdfCert208 from "../../assets/powerbi-certifications/Team Akatsuki - Rohith Dega .pdf";
+import pdfCert209 from "../../assets/powerbi-certifications/Team Akatsuki - Shaik Tazeem .pdf";
+import pdfCert210 from "../../assets/powerbi-certifications/Team Hackathon  - PALEM MONISHA .pdf";
+import pdfCert211 from "../../assets/powerbi-certifications/Team Hackathon  - PALEM THEJASREE .pdf";
+import pdfCert212 from "../../assets/powerbi-certifications/Team Hackathon  - PAMURU BHAGYA SREE .pdf";
+import pdfCert213 from "../../assets/powerbi-certifications/Team Hackathon - PUTTUR MOUNIKA .pdf";
+
 const Certifications = () => {
   const [searchQuery, setSearchQuery] = useState("");
   const fileInputRef = useRef(null);
@@ -1558,6 +1578,139 @@ const Certifications = () => {
       team: "The coders",
       project: "UI/UX Designing",
       filename: pdfCert194,
+    },
+    {
+      id: 195,
+      name: "G.Hema Sree",
+      team: "Bi Builders",
+      project: "Power BI",
+      filename: pdfCert195,
+    },
+    {
+      id: 196,
+      name: "GUMMIDI SWETHA",
+      team: "Bi Builders",
+      project: "Power BI",
+      filename: pdfCert196,
+    },
+    {
+      id: 197,
+      name: "Bijiyenula Pavani",
+      team: "Bi Builders",
+      project: "Power BI",
+      filename: pdfCert197,
+    },
+    {
+      id: 198,
+      name: "Gilaka Balaji",
+      team: "Bi builders",
+      project: "Power BI",
+      filename: pdfCert198,
+    },
+    {
+      id: 199,
+      name: "Devarakonda Prasuna",
+      team: "Code crunchers",
+      project: "Power BI",
+      filename: pdfCert199,
+    },
+    {
+      id: 200,
+      name: "Appani Rajya Lakshmi",
+      team: "Code crunchers",
+      project: "Power BI",
+      filename: pdfCert200,
+    },
+    {
+      id: 201,
+      name: "K.Reddylokesh",
+      team: "Code crunchers",
+      project: "Power BI",
+      filename: pdfCert201,
+    },
+    {
+      id: 202,
+      name: "Sarama Archana",
+      team: "Code Crunches",
+      project: "Power BI",
+      filename: pdfCert202,
+    },
+    {
+      id: 203,
+      name: "KUMMITHA HAREESH",
+      team: "Hackstreet Boys",
+      project: "Power BI",
+      filename: pdfCert203,
+    },
+    {
+      id: 204,
+      name: "GUTHA RAMAKRISHNA",
+      team: "Hackstreet Boys",
+      project: "Power BI",
+      filename: pdfCert204,
+    },
+    {
+      id: 205,
+      name: "Karanam Sreenivasulu",
+      team: "Rebort rebels",
+      project: "Power BI",
+      filename: pdfCert205,
+    },
+    {
+      id: 206,
+      name: "S Guru Sainath Reddy",
+      team: "Rebot rebels",
+      project: "Power BI",
+      filename: pdfCert206,
+    },
+    {
+      id: 207,
+      name: "Nandyala Pavan Kumar Reddy",
+      team: "Robot rebels",
+      project: "Power BI",
+      filename: pdfCert207,
+    },
+    {
+      id: 208,
+      name: "Rohith Dega",
+      team: "Team Akatsuki",
+      project: "Power BI",
+      filename: pdfCert208,
+    },
+    {
+      id: 209,
+      name: "Shaik Tazeem",
+      team: "Team Akatsuki",
+      project: "Power BI",
+      filename: pdfCert209,
+    },
+    {
+      id: 210,
+      name: "PALEM MONISHA",
+      team: "Team Hackathon",
+      project: "Power BI",
+      filename: pdfCert210,
+    },
+    {
+      id: 211,
+      name: "PALLA VINEETH",
+      team: "Team Hackathon",
+      project: "Power BI",
+      filename: pdfCert211,
+    },
+    {
+      id: 212,
+      name: "PAMURU BHAGYA SREE",
+      team: "Team Hackathon",
+      project: "Power BI",
+      filename: pdfCert212,
+    },
+    {
+      id: 213,
+      name: "PUTTUR MOUNIKA",
+      team: "Team Hackathon",
+      project: "Power BI",
+      filename: pdfCert213,
     },
   ];
 
