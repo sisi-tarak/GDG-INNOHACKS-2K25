@@ -122,7 +122,7 @@ import pdfCert119 from "../../assets/web-certifications/Visioneers - Krishnan Mo
 import pdfCert120 from "../../assets/web-certifications/Visioneers - Nandi Mangalam Geervani.pdf";
 import pdfCert121 from "../../assets/web-certifications/Web Dev - K.Charith.pdf";
 import pdfCert122 from "../../assets/web-certifications/WEB DEV - S L KESAVAANANDA.pdf";
-import pdfCert123 from "../../assets/web-certifications/Web Dev - Tatigunta Chasanth Reddy.pdf";
+import pdfCert123 from "../../assets/web-certifications/Web dev - Tatigunta Chasanth Reddy.pdf";
 import pdfCert124 from "../../assets/web-certifications/Web Dev - Thathappagari Hemanth.pdf";
 import pdfCert125 from "../../assets/web-certifications/Web dev - veeraballi karthik kumar reddy.pdf";
 import pdfCert126 from "../../assets/web-certifications/Web Masters  - Kunchala Lahari.pdf";
