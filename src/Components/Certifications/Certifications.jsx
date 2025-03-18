@@ -105,7 +105,7 @@ import pdfCert102 from "../../assets/web-certifications/Tech web  - Pujitha Ling
 import pdfCert103 from "../../assets/web-certifications/Tech web - CHITTEM KAMESWARI APARNA.pdf";
 import pdfCert104 from "../../assets/web-certifications/Tech web - Enapati keerthi.pdf";
 import pdfCert105 from "../../assets/web-certifications/TechSquad  - Motupalli Chandana.pdf";
-import pdfCert106 from "../../assets/web-certifications/TechSquad - PeddaKkagari Shalini.pdf";
+import pdfCert106 from "../../assets/web-certifications/TechSquad - Peddakkagari Shalini.pdf";
 import pdfCert107 from "../../assets/web-certifications/TechSquad - Ramagiri Neha.pdf";
 import pdfCert108 from "../../assets/web-certifications/Teen Titans  - Adeppagari Pallavi.pdf";
 import pdfCert109 from "../../assets/web-certifications/Teen Titans  - Cheemala Supriya.pdf";
@@ -1892,10 +1892,7 @@ const Certifications = () => {
                           <td className="px-6 py-4 whitespace-nowrap text-center text-sm font-medium">
                             <button
                               onClick={() =>
-                                downloadCertificate(
-                                  cert.filename,
-                                  cert.team
-                                )
+                                downloadCertificate(cert.filename, cert.team)
                               }
                               className="inline-flex items-center px-3 py-1.5 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-400 bg-transparent hover:bg-gray-200 hover:text-backgroundColor transition-all duration-300 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                             >
@@ -1936,16 +1933,15 @@ const Certifications = () => {
               </div>
               {searchQuery && filteredCertificates.length > 0 && (
                 <div className="mt-4 text-sm text-gray-400">
-                  Showing {filteredCertificates.length} of{" "}
-                  {certificates.length} certificates
+                  Showing {filteredCertificates.length} of {certificates.length}{" "}
+                  certificates
                 </div>
               )}
             </div>
           </div>
           <div className="px-6 py-4 mb-4 border-t border-gray-800">
             <p className="text-sm text-gray-400">
-              Can't find your certificate? Contact us at
-              support@techhack.com
+              Can't find your certificate? Contact us at support@techhack.com
             </p>
           </div>
         </div>
