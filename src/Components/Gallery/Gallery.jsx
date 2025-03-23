@@ -102,7 +102,6 @@ import IMG_8558 from "../../assets/images/IMG_8558.JPG";
 import IMG_8547 from "../../assets/images/IMG_8547.JPG";
 import IMG_8546 from "../../assets/images/IMG_8546.JPG";
 import IMG_8545 from "../../assets/images/IMG_8545.JPG";
-import { div } from "three/tsl";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -111,7 +110,6 @@ const Gallery = () => {
   const observerRef = useRef(null);
   const imageRefs = useRef({});
 
-  // All images in a single array
   const images = [
     { id: 1, src: IMG_9382, alt: "Hackathon Image 9382" },
     { id: 2, src: IMG_9377, alt: "Hackathon Image 9377" },
@@ -248,7 +246,6 @@ const Gallery = () => {
     };
   }, []);
 
-  // Modal functions
   const openModal = (image) => {
     setSelectedImage(image);
     setModalOpen(true);
@@ -261,7 +258,6 @@ const Gallery = () => {
     document.body.style.overflow = "auto";
   };
 
-  // Set ref for each image container
   const setRef = (id, element) => {
     imageRefs.current[id] = element;
     if (element && observerRef.current) {
@@ -269,7 +265,6 @@ const Gallery = () => {
     }
   };
 
-  // Handle image load success
   const handleImageLoad = (id) => {
     setImageStatus((prev) => ({
       ...prev,
@@ -277,7 +272,6 @@ const Gallery = () => {
     }));
   };
 
-  // Handle image load error
   const handleImageError = (id) => {
     setImageStatus((prev) => ({
       ...prev,
@@ -285,7 +279,6 @@ const Gallery = () => {
     }));
   };
 
-  // Image Modal Component
   const ImageModal = () => {
     if (!modalOpen || !selectedImage) return null;
 
