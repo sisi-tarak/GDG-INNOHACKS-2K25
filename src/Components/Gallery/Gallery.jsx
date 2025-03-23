@@ -342,13 +342,12 @@ const Gallery = () => {
         <div className="p-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {images.map((image) => (
-              <div>
+              <div key={image.id}>
                 <img
                   ref={(el) => setRef(image.id, el)}
                   src={image.src}
                   alt={image.alt}
                   data-id={image.id}
-                  key={image.id}
                   className="relative cursor-pointer overflow-hidden rounded-lg border border-gray-800 shadow-sm transform transition-transform duration-300 hover:scale-105"
                   onClick={() => openModal(image)}
                 />
