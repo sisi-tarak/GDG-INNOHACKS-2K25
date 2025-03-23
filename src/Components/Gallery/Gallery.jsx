@@ -308,20 +308,20 @@ const Gallery = () => {
           </button>
           <div className="bg-gray-900 rounded-lg overflow-hidden shadow-2xl transform transition-all duration-300">
             {!modalImageLoaded && (
-              <div className="w-full h-96 bg-gray-800 animate-pulse flex items-center justify-center">
+              <div className="w-full h-6 bg-strongBgColor animate-pulse flex items-center justify-center">
                 <div className="text-gray-500">Loading...</div>
               </div>
             )}
             <img
               src={selectedImage.src}
               alt={selectedImage.alt}
-              className={`w-full max-h-screen object-contain transition-opacity duration-300 ${
+              className={`w-full h-full max-h-screen object-cover transition-opacity duration-300 ${
                 modalImageLoaded ? "opacity-100" : "opacity-0"
               }`}
               onLoad={() => setModalImageLoaded(true)}
               onError={() => setModalImageLoaded(false)}
             />
-            <div className="p-4 bg-gray-800">
+            <div className="p-4 bg-strongBgColor">
               <p className="text-white text-sm">{selectedImage.alt}</p>
             </div>
           </div>
@@ -348,7 +348,7 @@ const Gallery = () => {
                   src={image.src}
                   alt={image.alt}
                   data-id={image.id}
-                  className="relative cursor-pointer overflow-hidden rounded-lg border border-gray-800 shadow-sm transform transition-transform duration-300 hover:scale-105"
+                  className="relative aspect-square object-cover cursor-pointer overflow-hidden rounded-lg border border-gray-800 shadow-sm transform transition-transform duration-300 hover:scale-105"
                   onClick={() => openModal(image)}
                 />
                 <div className="aspect-w-1 aspect-h-1 relative">
